@@ -11,26 +11,26 @@ import {
   Calculator, 
   Network, 
   SlidersHorizontal,
-  Languages,
-  Activity
+  Warehouse,
+  Boxes,
+  Cpu
 } from 'lucide-react';
-import { useLanguage } from '../context/LanguageContext';
 import { useFarmerState, LOCATION_PRESETS } from '../context/FarmerStateContext';
 
 export default function Navbar() {
-  const { lang, toggleLanguage, t } = useLanguage();
   const { crop, setCrop, quantity, setQuantity, selectedLocation, setSelectedLocation } = useFarmerState();
 
   const navItems = [
-    { to: "/dashboard", label: t("dashboard"), icon: LayoutDashboard },
-    { to: "/comparison", label: t("comparison"), icon: GitCompare },
-    { to: "/forecast", label: t("forecast"), icon: TrendingUp },
-    { to: "/arrivals", label: t("arrivals"), icon: Package },
-    { to: "/weather", label: t("weather"), icon: CloudSun },
-    { to: "/transport", label: t("transport"), icon: Truck },
-    { to: "/calculator", label: t("calculator"), icon: Calculator },
-    { to: "/optimizer", label: t("optimizer"), icon: Network },
-    { to: "/simulator", label: t("simulator"), icon: SlidersHorizontal },
+    { to: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
+    { to: "/comparison", label: "Comparison", icon: GitCompare },
+    { to: "/forecast", label: "Price Forecast", icon: TrendingUp },
+    { to: "/arrivals", label: "Arrivals", icon: Package },
+    { to: "/weather", label: "Weather", icon: CloudSun },
+    { to: "/transport", label: "Transport Map", icon: Truck },
+    { to: "/calculator", label: "Calculator", icon: Calculator },
+    { to: "/optimizer", label: "Optimizer", icon: Network },
+    { to: "/simulator", label: "Simulator", icon: SlidersHorizontal },
+    { to: "/storage/dashboard", label: "Cold Storage", icon: Warehouse },
   ];
 
   return (
@@ -49,7 +49,7 @@ export default function Navbar() {
                 <span className="bg-[#E9B44C] text-[#164B35] text-xs font-black px-1.5 py-0.5 rounded uppercase">AI</span>
               </div>
               <p className="text-[11px] text-[#DDEBDD] font-medium hidden sm:block">
-                {t("tagline")}
+                Don't just sell your harvest. Sell it smarter.
               </p>
             </div>
           </Link>
@@ -65,11 +65,11 @@ export default function Navbar() {
                 aria-label="Select Crop"
                 className="bg-[#164B35] text-white font-semibold rounded px-2 py-1 text-xs focus:ring-1 focus:ring-[#E9B44C] outline-none cursor-pointer"
               >
-                <option value="Tomato">Tomato (ಟೊಮೇಟೊ)</option>
-                <option value="Onion">Onion (ಈರುಳ್ಳಿ)</option>
-                <option value="Potato">Potato (ಆಲೂಗಡ್ಡೆ)</option>
-                <option value="Brinjal">Brinjal (ಬದನೆಕಾಯಿ)</option>
-                <option value="Green Chilli">Green Chilli (ಹಸಿಮೆಣಸಿನಕಾಯಿ)</option>
+                <option value="Tomato">Tomato</option>
+                <option value="Onion">Onion</option>
+                <option value="Potato">Potato</option>
+                <option value="Brinjal">Brinjal</option>
+                <option value="Green Chilli">Green Chilli</option>
               </select>
             </div>
 
@@ -107,50 +107,8 @@ export default function Navbar() {
               </select>
             </div>
           </div>
-
-          {/* Right Tools: Language Toggle & Live Status */}
-          <div className="flex items-center space-x-3">
-            <button 
-              onClick={toggleLanguage}
-              className="flex items-center space-x-1.5 bg-[#DDEBDD] text-[#164B35] hover:bg-white px-2.5 py-1.5 rounded-lg text-xs font-bold transition-all shadow-sm"
-              title="Toggle English / ಕನ್ನಡ"
-            >
-              <Languages className="w-4 h-4 text-[#164B35]" />
-              <span>{t("switchLang")}</span>
-            </button>
-
-            <div className="hidden lg:flex items-center space-x-1.5 text-xs text-emerald-300 bg-[#0e3626] px-2.5 py-1.5 rounded-lg border border-emerald-700/50">
-              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-              <span className="font-medium">Agmarknet Live</span>
-            </div>
-          </div>
         </div>
       </div>
-
-      {/* Subnav Page Tabs */}
-      <nav className="bg-[#123e2b] px-4 overflow-x-auto scrollbar-none border-t border-[#1b583e]">
-        <div className="max-w-7xl mx-auto flex space-x-1 py-1.5">
-          {navItems.map((item) => {
-            const Icon = item.icon;
-            return (
-              <NavLink
-                key={item.to}
-                to={item.to}
-                className={({ isActive }) =>
-                  `flex items-center space-x-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-colors ${
-                    isActive
-                      ? "bg-[#E9B44C] text-[#164B35] shadow-sm"
-                      : "text-[#DDEBDD] hover:bg-[#1b583e] hover:text-white"
-                  }`
-                }
-              >
-                <Icon className="w-3.5 h-3.5" />
-                <span>{item.label}</span>
-              </NavLink>
-            );
-          })}
-        </div>
-      </nav>
     </header>
   );
 }

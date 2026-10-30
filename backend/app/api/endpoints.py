@@ -97,9 +97,13 @@ def list_markets(state: Optional[str] = None):
     return markets
 
 @router.get("/weather")
-def get_weather(lat: float = Query(..., ge=-90, le=90), lon: float = Query(..., ge=-180, le=180)):
-    """Retrieve 7-day meteorological forecast and harvesting/transport risk evaluation."""
-    return weather_service.get_weather_forecast(lat, lon)
+def get_weather(
+    lat: float = Query(..., ge=-90, le=90),
+    lon: float = Query(..., ge=-180, le=180),
+    location_name: Optional[str] = Query("Farm Location")
+):
+    """Retrieve 7-day meteorological forecast, live current conditions, and harvesting/transport risk evaluation."""
+    return weather_service.get_weather_forecast(lat, lon, location_name)
 
 @router.get("/prices/history")
 def get_price_history(mandi_id: str, commodity: str = "Tomato", limit: int = 30):
@@ -136,19 +140,12 @@ def get_price_forecast(mandi_id: str, commodity: str = "Tomato", days_ahead: int
         raise HTTPException(status_code=500, detail=f"Prediction error: {str(e)}")
 
 @router.get("/arrivals/forecast")
-def get_arrivals_forecast(mandi_id: str, commodity: str = "Tomato"):
-    """Retrieve predicted arrivals volume and supply pressure for the upcoming week."""
-    fc = prediction_service.forecast_mandi_prices(mandi_id=mandi_id, commodity=commodity, days_ahead=7)
-    arrivals_timeline = [
-        {"date": p["date"], "day_name": p["day_name"], "forecast_arrivals_quintals": p["forecast_arrivals_quintals"]}
-        for p in fc["forecast"]
-    ]
-    return {
-        "mandi_id": mandi_id,
-        "mandi_name": fc["mandi_name"],
-        "commodity": commodity,
-        "arrivals_forecast": arrivals_timeline
-    }
+def get_arrivals_forecast(mandi_id: str, commodity: str = "Tomato", days_ahead: int = 14):
+    """Retrieve historical market arrivals, ML forecasted inflow, and supply pressure dynamics."""
+    try:
+        return prediction_service.forecast_mandi_arrivals(mandi_id=mandi_id, commodity=commodity, days_ahead=days_ahead)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Arrival forecast error: {str(e)}")
 
 @router.post("/transport/cost", response_model=TransportCostResponse)
 def calculate_transport(req: TransportCostRequest):
@@ -251,47 +248,90 @@ def optimize_harvest_distribution(req: OptimizationRequest):
 
 @router.post("/scenarios")
 def simulate_scenario(req: ScenarioSimulationRequest):
-    """Interactive What-If Scenario Simulator: recalculates profit under varying parameters."""
+    """Interactive What-If Scenario Simulator: recalculates profit under varying market parameters."""
     base_req = req.base_request
     
     # 1. Base Run
     base_results = get_mandi_recommendations(base_req)
-    base_best = base_results[0] if base_results else None
-    
-    # 2. Modified Run
+    if not base_results:
+        raise HTTPException(status_code=400, detail="Unable to calculate baseline recommendations.")
+        
+    # If farmer selected a specific mandi, evaluate that; otherwise use the top recommended mandi
+    target_mandi_id = base_req.selected_mandi_id
+    if target_mandi_id:
+        base_match = next((m for m in base_results if m["mandi_id"] == target_mandi_id), base_results[0])
+    else:
+        base_match = base_results[0]
+        target_mandi_id = base_match["mandi_id"]
+
+    # 2. Modified Run on the SAME mandi target
+    mod_qty = float(req.modified_quantity_tonnes if req.modified_quantity_tonnes is not None else base_req.quantity_tonnes)
+    mod_selling_date = req.modified_selling_date or base_req.selling_date or base_req.harvest_date
+    trans_mult = float(req.modified_transport_cost_multiplier if req.modified_transport_cost_multiplier is not None else 1.0)
+    spoil_mult = float(req.spoilage_rate_modifier_pct if req.spoilage_rate_modifier_pct is not None else 1.0)
+    price_shock = float(req.expected_price_shock_pct if req.expected_price_shock_pct is not None else 0.0)
+
     mod_req = NetRealizationRequest(
         crop=base_req.crop,
-        quantity_tonnes=req.modified_quantity_tonnes or base_req.quantity_tonnes,
+        quantity_tonnes=mod_qty,
         harvest_date=base_req.harvest_date,
-        selling_date=req.modified_selling_date or base_req.selling_date,
+        selling_date=mod_selling_date,
         farmer_lat=base_req.farmer_lat,
         farmer_lon=base_req.farmer_lon,
-        selected_mandi_id=base_req.selected_mandi_id,
-        custom_transport_cost_per_km=(base_req.custom_transport_cost_per_km or 35.0) * (req.modified_transport_cost_multiplier or 1.0),
-        custom_handling_cost_per_q=base_req.custom_handling_cost_per_q,
-        custom_storage_cost_per_day_per_q=base_req.custom_storage_cost_per_day_per_q,
-        custom_spoilage_rate_pct_per_day=(base_req.custom_spoilage_rate_pct_per_day or 1.5) * (req.spoilage_rate_modifier_pct or 1.0)
+        farmer_location_name=base_req.farmer_location_name,
+        selected_mandi_id=target_mandi_id,
+        custom_transport_cost_per_km=(base_req.custom_transport_cost_per_km or 35.0) * trans_mult,
+        custom_handling_cost_per_q=base_req.custom_handling_cost_per_q or 15.0,
+        custom_storage_cost_per_day_per_q=base_req.custom_storage_cost_per_day_per_q or 3.5,
+        custom_spoilage_rate_pct_per_day=(base_req.custom_spoilage_rate_pct_per_day or 1.5) * spoil_mult
     )
     
     mod_results = get_mandi_recommendations(mod_req)
-    mod_best = mod_results[0] if mod_results else None
-    
-    # Apply price shock if specified
-    if req.expected_price_shock_pct and mod_best:
-        shock_factor = 1.0 + (req.expected_price_shock_pct / 100.0)
-        mod_best["forecasted_price_per_q"] = round(mod_best["forecasted_price_per_q"] * shock_factor, 1)
-        mod_best["gross_revenue"] = round(mod_best["gross_revenue"] * shock_factor, 2)
-        mod_best["net_realization"] = round(mod_best["gross_revenue"] - mod_best["total_expenses"], 2)
-        mod_best["net_realization_per_q"] = round(mod_best["net_realization"] / (mod_req.quantity_tonnes * 10), 2)
+    mod_match = next((m for m in mod_results if m["mandi_id"] == target_mandi_id), mod_results[0]) if mod_results else None
 
-    diff_net = (mod_best["net_realization"] - base_best["net_realization"]) if (mod_best and base_best) else 0.0
+    if not mod_match:
+        raise HTTPException(status_code=500, detail="Scenario calculation failed for modified parameters.")
+
+    # Apply price shock
+    if price_shock != 0.0:
+        shock_factor = 1.0 + (price_shock / 100.0)
+        mod_match["forecasted_price_per_q"] = round(mod_match["forecasted_price_per_q"] * shock_factor, 1)
+        mod_match["gross_revenue"] = round(mod_qty * 10.0 * mod_match["forecasted_price_per_q"], 2)
+        total_ded = mod_match["transport_cost"] + mod_match["handling_cost"] + mod_match["storage_cost"] + mod_match["spoilage_loss"]
+        mod_match["total_expenses"] = round(total_ded, 2)
+        mod_match["net_realization"] = round(mod_match["gross_revenue"] - total_ded, 2)
+        mod_match["net_realization_per_q"] = round(mod_match["net_realization"] / (mod_qty * 10.0), 2)
+
+    diff_net = round(mod_match["net_realization"] - base_match["net_realization"], 2)
+    pct_change = round((diff_net / max(1.0, abs(base_match["net_realization"]))) * 100.0, 1)
+
+    if diff_net < 0:
+        advice = (
+            f"Adverse market conditions or cost increases compress expected net profit by Rs.{abs(diff_net):,.0f} ({pct_change}%). "
+            f"Consider dispatching earlier to avoid storage spoilage, or evaluate closer mandis to curb freight expenses."
+        )
+    elif diff_net > 0:
+        advice = (
+            f"Favorable conditions or holding strategy expanded net realization by +Rs.{diff_net:,.0f} (+{pct_change}%). "
+            f"The increased sale price more than justifies the logistics and holding commitments."
+        )
+    else:
+        advice = "No net variance observed under the current simulated parameters."
 
     return {
-        "base_scenario": base_best,
-        "simulated_scenario": mod_best,
-        "net_profit_difference_rupees": round(diff_net, 2),
-        "impact_analysis": (
-            f"The simulated changes result in a net realization shift of Rs.{diff_net:+,.0f}. "
-            f"{'Increased costs or price drops have compressed profits; consider immediate dispatch or diversifying mandis.' if diff_net < 0 else 'Favorable market conditions or optimized holding have expanded profit margins.'}"
-        )
+        "mandi_id": target_mandi_id,
+        "mandi_name": base_match["mandi_name"],
+        "base_scenario": base_match,
+        "simulated_scenario": mod_match,
+        "net_profit_difference_rupees": diff_net,
+        "net_profit_difference_percentage": pct_change,
+        "metrics_comparison": {
+            "gross_revenue_diff": round(mod_match["gross_revenue"] - base_match["gross_revenue"], 2),
+            "transport_cost_diff": round(mod_match["transport_cost"] - base_match["transport_cost"], 2),
+            "storage_cost_diff": round(mod_match["storage_cost"] - base_match["storage_cost"], 2),
+            "spoilage_loss_diff": round(mod_match["spoilage_loss"] - base_match["spoilage_loss"], 2),
+            "total_expenses_diff": round(mod_match["total_expenses"] - base_match["total_expenses"], 2),
+            "net_per_quintal_diff": round(mod_match["net_realization_per_q"] - base_match["net_realization_per_q"], 2)
+        },
+        "impact_analysis": advice
     }
