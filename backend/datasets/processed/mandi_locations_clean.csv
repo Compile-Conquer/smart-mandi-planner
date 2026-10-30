@@ -1,0 +1,24 @@
+state,district,mandi,lat,lon,type,storage_facility,cold_storage_per_day_per_q,mandi_id
+Karnataka,Kolar,Kolar APMC,13.1367,78.1292,Major APMC,True,3.5,karnataka_kolar_apmc
+Karnataka,Bengaluru South,Ramanagara APMC,12.7214,77.2799,APMC Subyard,True,4.0,karnataka_ramanagara_apmc
+Karnataka,Chamarajanagar,Gundlupet APMC,11.8083,76.6908,Subyard,False,4.5,karnataka_gundlupet_apmc
+Karnataka,Chamarajanagar,Chamarajanagar APMC,11.9261,76.9437,APMC,True,3.8,karnataka_chamarajanagar_apmc
+Karnataka,Chikkaballapur,Bagepalli APMC,13.7844,77.7946,APMC,False,4.2,karnataka_bagepalli_apmc
+Karnataka,Chikkaballapur,Chintamani APMC,13.4012,78.0567,Major Tomato Yard,True,3.5,karnataka_chintamani_apmc
+Karnataka,Mysuru,Mysuru Bandipalya APMC,12.2858,76.6698,Major APMC,True,3.2,karnataka_mysuru_bandipalya_apmc
+Karnataka,Bengaluru Urban,Binny Mill Mandi,12.9716,77.5667,Terminal Market,True,5.0,karnataka_binny_mill_mandi
+Karnataka,Bengaluru Urban,Yeshwanthpur APMC,13.0238,77.5505,Mega APMC,True,4.0,karnataka_yeshwanthpur_apmc
+Karnataka,Dharwad,Hubli Amargol APMC,15.3942,75.1224,Regional Hub,True,3.2,karnataka_hubli_amargol_apmc
+Karnataka,Belagavi,Belgaum APMC,15.8497,74.4977,Regional Hub,True,3.0,karnataka_belgaum_apmc
+Karnataka,Tumakuru,Tumkur APMC,13.3422,77.1017,APMC,True,3.5,karnataka_tumkur_apmc
+Tamil Nadu,Krishnagiri,Hosur Market,12.7409,77.8253,Border APMC,True,4.0,tamil_nadu_hosur_market
+Tamil Nadu,Dharmapuri,Palacode APMC,12.2965,78.0818,Tomato Hub,True,3.5,tamil_nadu_palacode_apmc
+Tamil Nadu,Madurai,Madurai APMC,9.9252,78.1198,Major Terminal,True,3.8,tamil_nadu_madurai_apmc
+Tamil Nadu,Coimbatore,MGR Market Coimbatore,11.0168,76.9558,Wholesale Hub,True,4.2,tamil_nadu_mgr_market_coimbatore
+Tamil Nadu,Chennai,Koyambedu Wholesale Market,13.0694,80.1948,Mega Terminal,True,5.5,tamil_nadu_koyambedu_wholesale_market
+Andhra Pradesh,Chittoor,Madanapalle APMC,13.556,78.501,Largest Asian Tomato Market,True,3.0,andhra_pradesh_madanapalle_apmc
+Andhra Pradesh,Anantapur,Hindupur APMC,13.8282,77.4913,APMC,True,3.2,andhra_pradesh_hindupur_apmc
+Andhra Pradesh,Kurnool,Kurnool Market Yard,15.8281,78.0373,Major Hub,True,3.2,andhra_pradesh_kurnool_market_yard
+Maharashtra,Pune,Pune Gultekdi APMC,18.4967,73.8687,Mega Hub,True,4.5,maharashtra_pune_gultekdi_apmc
+Maharashtra,Nashik,Pimpalgaon Baswant APMC,20.1744,73.9878,Tomato & Onion Capital,True,3.0,maharashtra_pimpalgaon_baswant_apmc
+Delhi,North Delhi,Azadpur Mandi,28.7159,77.1783,National Terminal Hub,True,6.0,delhi_azadpur_mandi
