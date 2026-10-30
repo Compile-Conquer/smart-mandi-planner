@@ -1,0 +1,144 @@
+{
+  "t7": {
+    "horizon_days": 7,
+    "best_model_name": "XGBoost Regressor",
+    "test_metrics": {
+      "mae": 293.61,
+      "rmse": 360.63,
+      "r2": 0.6125
+    },
+    "baselines": {
+      "naive": {
+        "mae": 288.25,
+        "rmse": 353.63,
+        "r2": 0.6274
+      },
+      "ma7": {
+        "mae": 339.61,
+        "rmse": 411.16,
+        "r2": 0.4963
+      },
+      "ma14": {
+        "mae": 392.79,
+        "rmse": 463.98,
+        "r2": 0.3586
+      }
+    },
+    "rf_metrics": {
+      "mae": 336.09,
+      "rmse": 404.69,
+      "r2": 0.512
+    },
+    "xgb_metrics": {
+      "mae": 293.61,
+      "rmse": 360.63,
+      "r2": 0.6125
+    },
+    "residual_std_error": 345.63,
+    "top_features": {
+      "price_ma7": 0.5792,
+      "price_ma14": 0.1477,
+      "price_lag1": 0.1206,
+      "month": 0.0344,
+      "arrivals_ma7": 0.0285,
+      "arrivals_lag1": 0.0151,
+      "price_change_1d": 0.0129,
+      "price_change_pct_1d": 0.011,
+      "temperature": 0.0099,
+      "price_volatility_7d": 0.0081,
+      "day": 0.0078,
+      "price_lag3": 0.0072,
+      "humidity": 0.0062,
+      "rainfall": 0.0057,
+      "dayofweek": 0.0057
+    },
+    "features_used": [
+      "price_lag1",
+      "price_lag3",
+      "price_ma7",
+      "price_ma14",
+      "price_volatility_7d",
+      "price_change_1d",
+      "price_change_pct_1d",
+      "arrivals_lag1",
+      "arrivals_ma7",
+      "temperature",
+      "rainfall",
+      "humidity",
+      "dayofweek",
+      "day",
+      "month"
+    ]
+  },
+  "t14": {
+    "horizon_days": 14,
+    "best_model_name": "XGBoost Regressor",
+    "test_metrics": {
+      "mae": 405.19,
+      "rmse": 488.98,
+      "r2": 0.2583
+    },
+    "baselines": {
+      "naive": {
+        "mae": 416.2,
+        "rmse": 497.43,
+        "r2": 0.2324
+      },
+      "ma7": {
+        "mae": 466.4,
+        "rmse": 541.92,
+        "r2": 0.089
+      },
+      "ma14": {
+        "mae": 494.74,
+        "rmse": 560.82,
+        "r2": 0.0243
+      }
+    },
+    "rf_metrics": {
+      "mae": 415.59,
+      "rmse": 504.1,
+      "r2": 0.2117
+    },
+    "xgb_metrics": {
+      "mae": 405.19,
+      "rmse": 488.98,
+      "r2": 0.2583
+    },
+    "residual_std_error": 451.96,
+    "top_features": {
+      "price_ma7": 0.5441,
+      "price_ma14": 0.167,
+      "month": 0.0649,
+      "arrivals_ma7": 0.0386,
+      "price_volatility_7d": 0.0295,
+      "price_lag1": 0.0294,
+      "price_lag3": 0.022,
+      "arrivals_lag1": 0.0143,
+      "price_change_1d": 0.0141,
+      "day": 0.0141,
+      "rainfall": 0.0128,
+      "price_change_pct_1d": 0.0124,
+      "temperature": 0.0124,
+      "humidity": 0.0122,
+      "dayofweek": 0.0122
+    },
+    "features_used": [
+      "price_lag1",
+      "price_lag3",
+      "price_ma7",
+      "price_ma14",
+      "price_volatility_7d",
+      "price_change_1d",
+      "price_change_pct_1d",
+      "arrivals_lag1",
+      "arrivals_ma7",
+      "temperature",
+      "rainfall",
+      "humidity",
+      "dayofweek",
+      "day",
+      "month"
+    ]
+  }
+}

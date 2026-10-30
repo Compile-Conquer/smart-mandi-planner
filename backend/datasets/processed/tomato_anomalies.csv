@@ -1,0 +1,339 @@
+date,state,mandi,variety,grade,min_price,max_price,modal_price,anomaly_score,is_anomaly
+2026-10-30,Andaman And Nicobar,Mayabander Vegetable Market,Tomato,Faq,6000.0,8000.0,7000.0,0.6604936613057732,True
+2026-10-30,Andhra Pradesh,B.Kothakota H/Q Angallu,Local,Faq,2000.0,2800.0,2400.0,0.4619499626808751,False
+2026-10-30,Andhra Pradesh,Guramkonda Sub-Yard Of Amc Valmikipuram,Hybrid,Faq,1900.0,3100.0,2300.0,0.5224310496347879,False
+2026-10-30,Andhra Pradesh,Kalikiri APMC,Hybrid,Faq,2000.0,3000.0,2400.0,0.4884506600396183,False
+2026-10-30,Andhra Pradesh,Kuppam APMC,Tomato,Grade C,900.0,1212.0,1212.0,0.5321016288974761,False
+2026-10-30,Andhra Pradesh,Madanapalli APMC,Local,Faq,2500.0,3300.0,3100.0,0.44701340624826463,False
+2026-10-30,Andhra Pradesh,Mulakalacheruvu APMC,Local,Faq,1200.0,2600.0,2100.0,0.5611621092512831,False
+2026-10-30,Andhra Pradesh,Palamaner APMC,Tomato,Faq,2200.0,2800.0,2500.0,0.44731297398812403,False
+2026-10-30,Andhra Pradesh,Punganur APMC,Hybrid,Faq,2000.0,3340.0,2670.0,0.5330508149839533,False
+2026-10-30,Andhra Pradesh,V. Kota Sub-Yard Of Amc Palamaneru,Other,Faq,2100.0,2700.0,2400.0,0.4559428345431529,False
+2026-10-30,Andhra Pradesh,Valmikipuram APMC,Hybrid,Faq,1900.0,3100.0,2300.0,0.5224310496347879,False
+2026-10-30,Assam,Balugaon APMC,Tomato,Local,1600.0,2000.0,1800.0,0.4632751901779961,False
+2026-10-30,Assam,Besimari APMC,Tomato,Local,1600.0,2000.0,1800.0,0.4632751901779961,False
+2026-10-30,Assam,Pamohi(Garchuk) APMC,Local,Faq,2000.0,3000.0,2500.0,0.47730482635242666,False
+2026-10-30,Bihar,Buxur APMC,Deshi,Local,2200.0,2215.0,2210.0,0.48250767959496854,False
+2026-10-30,Bihar,Gopalganj APMC,Tomato,Grade C,3410.0,3410.0,3410.0,0.3973060711963462,False
+2026-10-30,Bihar,Jainagar APMC,Deshi,Grade A,3000.0,4000.0,3450.0,0.4626509340732996,False
+2026-10-30,Bihar,Kaimur APMC,Deshi,Faq,2875.0,2875.0,2875.0,0.4125539596785971,False
+2026-10-30,Bihar,Mohana APMC,Hybrid,Grade A,2000.0,2200.0,2120.0,0.47626577819341864,False
+2026-10-30,Bihar,Surjyagarha APMC,Deshi,Local,3000.0,3000.0,3000.0,0.39397832112893383,False
+2026-10-30,Gujarat,Dahod(Veg. Market) APMC,Tomato,Local,500.0,1800.0,1300.0,0.6598173773832681,True
+2026-10-30,Gujarat,Damnagar APMC,Local,Local,2500.0,2500.0,2500.0,0.42701414423091716,False
+2026-10-30,Gujarat,Gondal(Veg.Market Gondal) APMC,Tomato,Local,1000.0,2000.0,1500.0,0.5204806709924694,False
+2026-10-30,Gujarat,Mansa(Manas Veg Yard) APMC,Tomato,Local,1000.0,1000.0,1000.0,0.5372781862278355,False
+2026-10-30,Gujarat,Rajkot(Veg.Sub Yard) APMC,Tomato,Faq,1075.0,1960.0,1515.0,0.5285886313636148,False
+2026-10-30,Gujarat,Surat APMC,Other,Faq,400.0,1000.0,700.0,0.7023090947565471,True
+2026-10-30,Gujarat,Vadhvan APMC,Tomato,Medium,1000.0,2000.0,1500.0,0.5204806709924694,False
+2026-10-30,Haryana,Fatehabad APMC,Other,Local,2000.0,2000.0,2000.0,0.4711354144661534,False
+2026-10-30,Haryana,Ferozpurzirkha(Nagina) APMC,Other,Local,1600.0,2000.0,1800.0,0.4632751901779961,False
+2026-10-30,Haryana,Ganaur APMC,Tomato,Faq,2500.0,3000.0,2800.0,0.41145956509631787,False
+2026-10-30,Haryana,Gohana APMC,Other,Medium,2000.0,3500.0,3000.0,0.5481966063927469,False
+2026-10-30,Haryana,Gurgaon APMC,Other,Grade B,1000.0,2000.0,1500.0,0.5204806709924694,False
+2026-10-30,Haryana,Hansi APMC,Other,Faq,2000.0,3000.0,2500.0,0.47730482635242666,False
+2026-10-30,Haryana,Meham,Tomato,Medium,2200.0,2200.0,2200.0,0.4481629412577547,False
+2026-10-30,Haryana,Narnaul APMC,Tomato,Medium,1500.0,3000.0,2500.0,0.5550656254055669,False
+2026-10-30,Haryana,Panipat APMC,Other,Local,1000.0,2000.0,1500.0,0.5204806709924694,False
+2026-10-30,Haryana,Rewari APMC,Other,Medium,600.0,2400.0,1400.0,0.7215430460773761,True
+2026-10-30,Haryana,Rohtak APMC,Other,Medium,1500.0,3000.0,2000.0,0.5933078176829102,False
+2026-10-30,Haryana,Shahabad APMC,Tomato,Medium,1500.0,2200.0,2000.0,0.48706099732338265,False
+2026-10-30,Haryana,Tarori APMC,Other,Medium,3000.0,4500.0,4000.0,0.5636478321220746,False
+2026-10-30,Haryana,Thanesar APMC,Tomato,Local,1000.0,3000.0,2000.0,0.6460338279262461,True
+2026-10-30,Himachal Pradesh,Pmy Chamba,Tomato,Medium,2500.0,3000.0,2750.0,0.4038651387580735,False
+2026-10-30,Himachal Pradesh,Pmy Kather Solan,Other,Medium,400.0,2700.0,2100.0,0.6890348881221339,True
+2026-10-30,Himachal Pradesh,Smy Baijnath,Hybrid,Grade A,2800.0,3200.0,3000.0,0.3891784875433037,False
+2026-10-30,Himachal Pradesh,Smy Bhuntar,Other,Faq,1800.0,2000.0,1900.0,0.4750692875444682,False
+2026-10-30,Himachal Pradesh,Smy Dharampur,Local,Local,700.0,1400.0,1200.0,0.56842469087391,False
+2026-10-30,Himachal Pradesh,Smy Jaisinghpur,Tomato,Faq,2000.0,2100.0,2050.0,0.4711873455774989,False
+2026-10-30,Himachal Pradesh,Smy Nagrota Bagwan,Tomato,Faq,1800.0,2000.0,1900.0,0.4750692875444682,False
+2026-10-30,Himachal Pradesh,Smy Palampur,Tomato,Faq,1900.0,2000.0,1950.0,0.48473206545346254,False
+2026-10-30,Himachal Pradesh,Smy Wakhnaghat,Deshi,Medium,600.0,1400.0,1400.0,0.5482787513699848,False
+2026-10-30,Jammu And Kashmir,Fruit And Vegetable Market Udhampur,Other,Grade B,2200.0,2200.0,2200.0,0.4481629412577547,False
+2026-10-30,Jammu And Kashmir,Mac F&V Market Narwal Jammu,Tomato,Faq,2000.0,2500.0,2250.0,0.4426092773110675,False
+2026-10-30,Karnataka,Bagepalli APMC,Tomato,Small,230.0,2300.0,1720.0,0.6996261893374989,True
+2026-10-30,Karnataka,Belgaum APMC,Tomato,Large,300.0,400.0,350.0,0.7050782736244161,True
+2026-10-30,Karnataka,Chamarajanagar APMC,Tomato,Local,2000.0,2800.0,2400.0,0.4619499626808751,False
+2026-10-30,Karnataka,Doddaballapur APMC,Tomato,Medium,1000.0,1500.0,1200.0,0.530812525637429,False
+2026-10-30,Karnataka,Gundlupet APMC,Tomato,Local,2600.0,2800.0,2700.0,0.4320611002428183,False
+2026-10-30,Karnataka,Ramanagara APMC,Tomato,Local,2500.0,3500.0,3000.0,0.45790725276506006,False
+2026-10-30,Karnataka,Shimoga APMC,Tomato,Local,800.0,2400.0,1600.0,0.6404340711419786,True
+2026-10-30,Kerala,Anchal Market,Tomato,Local,4800.0,4800.0,4800.0,0.5237529452570493,False
+2026-10-30,Kerala,Chengannur Market,Tomato,Faq,3800.0,4000.0,4000.0,0.4183846625738866,False
+2026-10-30,Kerala,Ettumanoor Market,Tomato,Faq,3600.0,4000.0,3800.0,0.38953742050769274,False
+2026-10-30,Kerala,Kuruppanthura Market,Other,Faq,5000.0,5200.0,5200.0,0.5537094574750302,False
+2026-10-30,Kerala,Mukkom Market,Tomato,Faq,3400.0,3600.0,3500.0,0.4017300725192068,False
+2026-10-30,Kerala,Neyyatinkara Market,Tomato,Faq,3400.0,4000.0,3700.0,0.4131446526615756,False
+2026-10-30,Kerala,North Paravur Market,Deshi,Faq,3000.0,4000.0,3500.0,0.45154301598207885,False
+2026-10-30,Kerala,Perinthalmanna Market,Tomato,Large,2000.0,2500.0,2300.0,0.43920827468259666,False
+2026-10-30,Kerala,Quilandy Market,Other,Faq,3200.0,3300.0,3200.0,0.42757854918937027,False
+2026-10-30,Kerala,Thrippunithura Market,Tomato,Medium,3800.0,4500.0,4000.0,0.4446342079063315,False
+2026-10-30,Madhya Pradesh,Burhanpur(F&V) APMC,Other,Local,1000.0,2000.0,1600.0,0.5321701034613662,False
+2026-10-30,Madhya Pradesh,Garoth(F&V) APMC,Tomato,Local,550.0,675.0,600.0,0.618916787403231,True
+2026-10-30,Madhya Pradesh,Haatpipliya(F&V) APMC,Tomato,Local,1600.0,2400.0,2000.0,0.49216272360347757,False
+2026-10-30,Madhya Pradesh,Manawar(F&V) APMC,Tomato,Grade B,900.0,1200.0,955.0,0.5691621821019425,False
+2026-10-30,Madhya Pradesh,Sagar(F&V) APMC,Local,Local,500.0,600.0,550.0,0.6428713725791005,True
+2026-10-30,Madhya Pradesh,Sanawad(F&V) APMC,Deshi,Medium,1000.0,1000.0,1000.0,0.5372781862278355,False
+2026-10-30,Madhya Pradesh,Sendhwa(F&V) APMC,Hybrid,Medium,1100.0,1600.0,1400.0,0.515840183350024,False
+2026-10-30,Madhya Pradesh,Shivpuri(F&V) APMC,Other,Grade B,1000.0,1000.0,1000.0,0.5372781862278355,False
+2026-10-30,Madhya Pradesh,Sirali(F&V) APMC,Tomato,Grade A,1000.0,1000.0,1000.0,0.5372781862278355,False
+2026-10-30,Maharashtra,APMC Kalmeshwar,Other,Local,1510.0,2000.0,1820.0,0.47901502882055275,False
+2026-10-30,Maharashtra,APMC Pune,Local,Local,500.0,1200.0,850.0,0.6778198547189928,True
+2026-10-30,Maharashtra,APMC Rahata,Other,Local,500.0,1000.0,750.0,0.6534841699940557,True
+2026-10-30,Maharashtra,APMC Ratnagiri(Nachane),Other,Local,600.0,700.0,650.0,0.6282861278857467,True
+2026-10-30,Maharashtra,APMC Shrirampur,Other,Local,1000.0,1500.0,1250.0,0.5288647224135242,False
+2026-10-30,Maharashtra,APMC Vai,Local,Local,900.0,1500.0,1200.0,0.5533477899429549,False
+2026-10-30,Maharashtra,Pune(Moshi),Local,Local,500.0,700.0,600.0,0.6360698517984714,True
+2026-10-30,Maharashtra,Pune(Pimpri),Local,Local,1000.0,1000.0,1000.0,0.5372781862278355,False
+2026-10-30,Meghalaya,Shillong APMC,017,Faq,1000.0,1600.0,1300.0,0.5458094545845454,False
+2026-10-30,Nagaland,Baghty APMC,Tomato,Faq,4400.0,5500.0,5000.0,0.556256979553094,False
+2026-10-30,Odisha,Angul(Atthamallick) APMC,Tomato,Grade B,4000.0,5000.0,4500.0,0.5145836592383637,False
+2026-10-30,Odisha,Baripada APMC,Tomato,Medium,3000.0,4000.0,3500.0,0.45154301598207885,False
+2026-10-30,Odisha,Betnoti APMC,Tomato,Faq,3000.0,3400.0,3200.0,0.37567717877595624,False
+2026-10-30,Odisha,Bonai APMC,Other,Grade Range-1,890.0,1050.0,965.0,0.567356832138103,False
+2026-10-30,Odisha,Boudh APMC,Other,Local,3000.0,4000.0,3500.0,0.45154301598207885,False
+2026-10-30,Odisha,Jharsuguda APMC,Other,Grade A,4000.0,4000.0,4000.0,0.41295887365066075,False
+2026-10-30,Odisha,Junagarh APMC,Other,Grade B,2800.0,3200.0,3000.0,0.3891784875433037,False
+2026-10-30,Odisha,Kalahandi(Dharamagarh) APMC,Other,Grade B,2700.0,3100.0,2900.0,0.40715856894325253,False
+2026-10-30,Odisha,Kantabaji APMC,Other,Grade B,2000.0,3000.0,2500.0,0.47730482635242666,False
+2026-10-30,Odisha,Keonjhar APMC,Other,Non-Faq,4500.0,5000.0,5000.0,0.5048388146120502,False
+2026-10-30,Odisha,Panposh APMC,Hybrid,Faq,3000.0,4000.0,3500.0,0.45154301598207885,False
+2026-10-30,Odisha,Parlakhemundi APMC,Local,Grade Range-1,800.0,1000.0,900.0,0.5631881962358312,False
+2026-10-30,Odisha,Rairakhol APMC,Hybrid,Grade B,2000.0,2500.0,2300.0,0.43920827468259666,False
+2026-10-30,Odisha,Saraskana APMC,Tomato,Medium,3500.0,4000.0,3800.0,0.38528630473199615,False
+2026-10-30,Odisha,Sargipali APMC,Other,Faq,2500.0,2800.0,2600.0,0.436842963799131,False
+2026-10-30,Punjab,Bhagta Bhai Ka APMC,Other,Medium,2800.0,2800.0,2800.0,0.4149987629620609,False
+2026-10-30,Punjab,Doraha APMC,Deshi,Local,1500.0,2000.0,1800.0,0.4803984867047961,False
+2026-10-30,Punjab,Fazilka APMC,Tomato,Faq,1200.0,1200.0,1200.0,0.5413754105790239,False
+2026-10-30,Punjab,Garh Shankar APMC,Local,Faq,2300.0,2300.0,2300.0,0.44264035928805456,False
+2026-10-30,Punjab,Garh Shankar(Mahalpur) APMC,Tomato,Faq,2400.0,2400.0,2400.0,0.4386613538199142,False
+2026-10-30,Punjab,Garhshankar(Kotfatuhi) APMC,Other,Faq,2500.0,2500.0,2500.0,0.42701414423091716,False
+2026-10-30,Punjab,Jalalabad APMC,Tomato,Medium,1700.0,2000.0,1800.0,0.4831172232915098,False
+2026-10-30,Punjab,Jalandhar City(Jalandhar) APMC,Tomato,Faq,500.0,1800.0,1100.0,0.717428866433758,True
+2026-10-30,Punjab,Kharar APMC,Tomato,Non-Faq,2000.0,4000.0,3000.0,0.6130654643509247,False
+2026-10-30,Punjab,Lalru APMC,Deshi,Local,4000.0,4000.0,4000.0,0.41295887365066075,False
+2026-10-30,Punjab,Mukerian APMC,Tomato,Local,1200.0,1600.0,1400.0,0.5071717830562916,False
+2026-10-30,Punjab,Nawan Shahar(Subzi Mandi) APMC,Tomato,Faq,1500.0,1600.0,1550.0,0.5325844659311315,False
+2026-10-30,Punjab,Quadian APMC,Other,Grade A,3800.0,4000.0,3900.0,0.4145902752285013,False
+2026-10-30,Punjab,Rayya APMC,Other,Faq,680.0,680.0,680.0,0.6558858856262397,True
+2026-10-30,Punjab,Sahnewal APMC,Tomato,Faq,2500.0,2500.0,2500.0,0.42701414423091716,False
+2026-10-30,Punjab,Samrala APMC,Other,Local,2500.0,3200.0,3000.0,0.42867717566456265,False
+2026-10-30,Punjab,Sirhind APMC,Other,Faq,2500.0,3500.0,3000.0,0.45790725276506006,False
+2026-10-30,Punjab,Zira APMC,Other,Local,1700.0,1700.0,1700.0,0.5162690417859056,False
+2026-10-30,Rajasthan,Bassi APMC,Other,Local,2800.0,3200.0,3000.0,0.3891784875433037,False
+2026-10-30,Rajasthan,Bayana APMC,Other,Local,1200.0,1200.0,1200.0,0.5413754105790239,False
+2026-10-30,Rajasthan,Bhinmal APMC,Other,Non-Faq,1000.0,1100.0,1050.0,0.5692771744451928,False
+2026-10-30,Rajasthan,Jaipur(F&V) APMC,Other,Faq,1200.0,2500.0,1850.0,0.571640971563498,False
+2026-10-30,Tamil Nadu,A.Jattihalli(Uzhavar Sandhai ),Local,Local,3000.0,3400.0,3200.0,0.37567717877595624,False
+2026-10-30,Tamil Nadu,Alangudi(Uzhavar Sandhai ),Other,Local,3500.0,4000.0,3750.0,0.3685207992244825,False
+2026-10-30,Tamil Nadu,Ambasamudram(Uzhavar Sandhai ),Local,Local,3300.0,4000.0,3650.0,0.43310865731376447,False
+2026-10-30,Tamil Nadu,Ambattur(Uzhavar Sandhai ),Deshi,Local,4000.0,4000.0,4000.0,0.41295887365066075,False
+2026-10-30,Tamil Nadu,Ammapet(Uzhavar Sandhai ),Local,Local,3000.0,3500.0,3250.0,0.37602521078007894,False
+2026-10-30,Tamil Nadu,Anaiyur(Uzhavar Sandhai ),Other,Local,3400.0,3800.0,3600.0,0.3844072142352839,False
+2026-10-30,Tamil Nadu,Andipatti(Uzhavar Sandhai ),Other,Local,3300.0,3500.0,3400.0,0.39948101290095567,False
+2026-10-30,Tamil Nadu,Anna Nagar(Uzhavar Sandhai ),Other,Local,3000.0,3200.0,3100.0,0.4007735218560014,False
+2026-10-30,Tamil Nadu,Arani(Uzhavar Sandhai ),Deshi,Local,2500.0,3000.0,2750.0,0.4038651387580735,False
+2026-10-30,Tamil Nadu,Aranthangi(Uzhavar Sandhai ),Other,Local,3500.0,4000.0,3750.0,0.3685207992244825,False
+2026-10-30,Tamil Nadu,Arcot(Uzhavar Sandhai ),Deshi,Local,3000.0,3000.0,3000.0,0.39397832112893383,False
+2026-10-30,Tamil Nadu,Ariyalur(Uzhavar Sandhai),Deshi,Local,3500.0,4000.0,3750.0,0.3685207992244825,False
+2026-10-30,Tamil Nadu,Aruppukottai(Uzhavar Sandhai ),Deshi,Local,3000.0,3500.0,3250.0,0.37602521078007894,False
+2026-10-30,Tamil Nadu,Athur(Uzhavar Sandhai ),Local,Local,3000.0,3800.0,3400.0,0.4388889210306536,False
+2026-10-30,Tamil Nadu,Attayampatti(Uzhavar Sandhai ),Deshi,Local,3400.0,3400.0,3400.0,0.3949693461545036,False
+2026-10-30,Tamil Nadu,Avallapalli(Uzhavar Sandhai ),Deshi,Local,2500.0,3000.0,2750.0,0.4038651387580735,False
+2026-10-30,Tamil Nadu,Bodinayakanur(Uzhavar Sandhai ),Deshi,Local,3800.0,3800.0,3800.0,0.4160746359815315,False
+2026-10-30,Tamil Nadu,Chengam(Uzhavar Sandhai ),Deshi,Local,2500.0,3000.0,2750.0,0.4038651387580735,False
+2026-10-30,Tamil Nadu,Cheyyar(Uzhavar Sandhai ),Local,Local,2500.0,3000.0,2750.0,0.4038651387580735,False
+2026-10-30,Tamil Nadu,Chidambaram(Uzhavar Sandhai ),Local,Local,4000.0,4000.0,4000.0,0.41295887365066075,False
+2026-10-30,Tamil Nadu,Chinnalapatti(Uzhavar Sandhai ),Deshi,Local,3000.0,3500.0,3250.0,0.37602521078007894,False
+2026-10-30,Tamil Nadu,Chinnamanur(Uzhavar Sandhai ),Local,Local,3600.0,3600.0,3600.0,0.3957158047500122,False
+2026-10-30,Tamil Nadu,Chokkikulam(Uzhavar Sandhai ),Deshi,Local,3600.0,3800.0,3700.0,0.4117786894100378,False
+2026-10-30,Tamil Nadu,Coonoor(Uzhavar Sandhai ),Local,Local,4000.0,4500.0,4250.0,0.4198603635904156,False
+2026-10-30,Tamil Nadu,Cuddalore(Uzhavar Sandhai ),Deshi,Local,3800.0,3800.0,3800.0,0.4160746359815315,False
+2026-10-30,Tamil Nadu,Denkanikottai(Uzhavar Sandhai ),Deshi,Local,2500.0,3000.0,2750.0,0.4038651387580735,False
+2026-10-30,Tamil Nadu,Devakottai(Uzhavar Sandhai ),Deshi,Local,3800.0,4200.0,4000.0,0.4055551081826862,False
+2026-10-30,Tamil Nadu,Devaram(Uzhavar Sandhai ),Deshi,Local,3600.0,3600.0,3600.0,0.3957158047500122,False
+2026-10-30,Tamil Nadu,Dharapuram(Uzhavar Sandhai ),Local,Local,3500.0,4000.0,3750.0,0.3685207992244825,False
+2026-10-30,Tamil Nadu,Dharmapuri(Uzhavar Sandhai ),Local,Local,3200.0,3400.0,3300.0,0.40091289855144796,False
+2026-10-30,Tamil Nadu,Dindigul(Uzhavar Sandhai ),Other,Local,3000.0,3500.0,3250.0,0.37602521078007894,False
+2026-10-30,Tamil Nadu,Edapadi(Uzhavar Sandhai ),Local,Local,3500.0,4000.0,3750.0,0.3685207992244825,False
+2026-10-30,Tamil Nadu,Elampillai(Uzhavar Sandhai ),Other,Local,3000.0,3500.0,3250.0,0.37602521078007894,False
+2026-10-30,Tamil Nadu,Gandarvakottai(Uzhavar Sandhai ),Other,Local,3500.0,4000.0,3750.0,0.3685207992244825,False
+2026-10-30,Tamil Nadu,Gandhigramam(Uzhavar Sandhai),Other,Local,3500.0,4000.0,3750.0,0.3685207992244825,False
+2026-10-30,Tamil Nadu,Gingee(Uzhavar Sandhai ),Deshi,Local,3000.0,3000.0,3000.0,0.39397832112893383,False
+2026-10-30,Tamil Nadu,Gobichettipalayam(Uzhavar Sandhai ),Deshi,Local,3400.0,3600.0,3500.0,0.4017300725192068,False
+2026-10-30,Tamil Nadu,Gudalur(Uzhavar Sandhai ),Deshi,Local,3500.0,4000.0,3750.0,0.3685207992244825,False
+2026-10-30,Tamil Nadu,Gudiyatham(Uzhavar Sandhai ),Deshi,Local,2000.0,2500.0,2250.0,0.4426092773110675,False
+2026-10-30,Tamil Nadu,Guduvancheri(Uzhavar Sandhai ),Other,Local,3000.0,3500.0,3250.0,0.37602521078007894,False
+2026-10-30,Tamil Nadu,Harur(Uzhavar Sandhai ),Deshi,Local,3000.0,3500.0,3250.0,0.37602521078007894,False
+2026-10-30,Tamil Nadu,Hasthampatti(Uzhavar Sandhai ),Local,Local,3000.0,3600.0,3300.0,0.3993325220725836,False
+2026-10-30,Tamil Nadu,Hosur(Uzhavar Sandhai ),Deshi,Local,2500.0,3000.0,2750.0,0.4038651387580735,False
+2026-10-30,Tamil Nadu,Jalagandapuram(Uzhavar Sandhai ),Other,Local,3000.0,3400.0,3200.0,0.37567717877595624,False
+2026-10-30,Tamil Nadu,Jameenrayapettai(Uzhavar Sandhai ),Deshi,Local,3500.0,4000.0,3750.0,0.3685207992244825,False
+2026-10-30,Tamil Nadu,Jeyankondam(Uzhavar Sandhai ),Deshi,Local,3600.0,4000.0,3800.0,0.38953742050769274,False
+2026-10-30,Tamil Nadu,Kahithapattarai(Uzhavar Sandhai ),Deshi,Local,3000.0,3000.0,3000.0,0.39397832112893383,False
+2026-10-30,Tamil Nadu,Kallakurichi(Uzhavar Sandhai ),Deshi,Local,3500.0,3500.0,3500.0,0.39195973925136673,False
+2026-10-30,Tamil Nadu,Kambam(Uzhavar Sandhai ),Deshi,Local,3500.0,3600.0,3550.0,0.4364559529518097,False
+2026-10-30,Tamil Nadu,Kancheepuram(Uzhavar Sandhai ),Other,Local,3000.0,3200.0,3100.0,0.4007735218560014,False
+2026-10-30,Tamil Nadu,Kandiyaperi(Uzhavar Sandhai ),Other,Local,3800.0,4000.0,3900.0,0.4145902752285013,False
+2026-10-30,Tamil Nadu,Kangayam(Uzhavar Sandhai ),Local,Local,3000.0,3200.0,3100.0,0.4007735218560014,False
+2026-10-30,Tamil Nadu,Karaikudi(Uzhavar Sandhai ),Deshi,Local,3800.0,4200.0,4000.0,0.4055551081826862,False
+2026-10-30,Tamil Nadu,Karambakkudi(Uzhavar Sandhai ),Other,Local,3500.0,4000.0,3750.0,0.3685207992244825,False
+2026-10-30,Tamil Nadu,Karimangalam(Uzhavar Sandhai),Local,Local,3000.0,3400.0,3200.0,0.37567717877595624,False
+2026-10-30,Tamil Nadu,Kariyapatti(Uzhavar Sandhai ),Deshi,Local,3000.0,3500.0,3250.0,0.37602521078007894,False
+2026-10-30,Tamil Nadu,Karur(Uzhavar Sandhai ),Deshi,Local,3500.0,4000.0,3750.0,0.3685207992244825,False
+2026-10-30,Tamil Nadu,Katpadi(Uzhavar Sandhai ),Deshi,Local,3600.0,3600.0,3600.0,0.3957158047500122,False
+2026-10-30,Tamil Nadu,Kaveripattinam(Uzhavar Sandhai ),Local,Local,4000.0,4000.0,4000.0,0.41295887365066075,False
+2026-10-30,Tamil Nadu,Keelpennathur(Uzhavar Sandhai ),Deshi,Local,4500.0,5000.0,4750.0,0.47858282748429914,False
+2026-10-30,Tamil Nadu,Kknagar(Uzhavar Sandhai ),Deshi,Local,3200.0,3400.0,3300.0,0.40091289855144796,False
+2026-10-30,Tamil Nadu,Kovilpatti(Uzhavar Sandhai ),Local,Local,3000.0,3500.0,3250.0,0.37602521078007894,False
+2026-10-30,Tamil Nadu,Krishnagiri(Uzhavar Sandhai ),Deshi,Local,1800.0,2200.0,2000.0,0.4565090902601296,False
+2026-10-30,Tamil Nadu,Kulithalai(Uzhavar Sandhai ),Deshi,Local,3600.0,4000.0,3800.0,0.38953742050769274,False
+2026-10-30,Tamil Nadu,Kumarapalayam(Uzhavar Sandhai ),Other,Local,4200.0,5000.0,4600.0,0.5058078724190196,False
+2026-10-30,Tamil Nadu,Kumbakonam(Uzhavar Sandhai ),Deshi,Local,3800.0,4200.0,4000.0,0.4055551081826862,False
+2026-10-30,Tamil Nadu,Kundrathur(Uzhavar Sandhai ),Other,Local,3000.0,3200.0,3100.0,0.4007735218560014,False
+2026-10-30,Tamil Nadu,Kurichi(Uzhavar Sandhai ),Local,Local,3400.0,3800.0,3600.0,0.3844072142352839,False
+2026-10-30,Tamil Nadu,Lalgudi(Uzhavar Sandhai ),Local,Local,3400.0,3400.0,3400.0,0.3949693461545036,False
+2026-10-30,Tamil Nadu,Madhuranthagam(Uzhavar Sandhai ),Deshi,Local,3000.0,3000.0,3000.0,0.39397832112893383,False
+2026-10-30,Tamil Nadu,Manachanallur(Uzhavar Sandhai ),Deshi,Local,3000.0,3000.0,3000.0,0.39397832112893383,False
+2026-10-30,Tamil Nadu,Manapparai(Uzhavar Sandhai ),Other,Local,3000.0,3000.0,3000.0,0.39397832112893383,False
+2026-10-30,Tamil Nadu,Mannargudi I(Uzhavar Sandhai ),Deshi,Local,3600.0,3600.0,3600.0,0.3957158047500122,False
+2026-10-30,Tamil Nadu,Mannargudi Ii(Uzhavar Sandhai ),Deshi,Local,3600.0,3600.0,3600.0,0.3957158047500122,False
+2026-10-30,Tamil Nadu,Mayiladuthurai(Uzhavar Sandhai ),Deshi,Local,3600.0,4000.0,3800.0,0.38953742050769274,False
+2026-10-30,Tamil Nadu,Mecheri(Uzhavar Sandhai),Deshi,Local,3000.0,3500.0,3250.0,0.37602521078007894,False
+2026-10-30,Tamil Nadu,Medavakkam(Uzhavar Sandhai ),Other,Local,3000.0,3500.0,3250.0,0.37602521078007894,False
+2026-10-30,Tamil Nadu,Melapalayam(Uzhavar Sandhai ),Other,Local,3800.0,4000.0,3900.0,0.4145902752285013,False
+2026-10-30,Tamil Nadu,Melur(Uzhavar Sandhai ),Deshi,Local,3400.0,3800.0,3600.0,0.3844072142352839,False
+2026-10-30,Tamil Nadu,Mettupalayam(Uzhavar Sandhai ),Deshi,Local,3500.0,4000.0,3750.0,0.3685207992244825,False
+2026-10-30,Tamil Nadu,Mettur(Uzhavar Sandhai ),Local,Local,3000.0,4000.0,3500.0,0.45154301598207885,False
+2026-10-30,Tamil Nadu,Mohanur(Uzhavar Sandhai ),Local,Local,4200.0,4800.0,4500.0,0.4572456579967888,False
+2026-10-30,Tamil Nadu,Musiri(Uzhavar Sandhai ),Local,Local,3200.0,3200.0,3200.0,0.4029363974128784,False
+2026-10-30,Tamil Nadu,Muthupettai(Uzhavar Sandhai ),Deshi,Local,3400.0,3400.0,3400.0,0.3949693461545036,False
+2026-10-30,Tamil Nadu,Myladi(Uzhavar Sandhai ),Deshi,Local,5000.0,5500.0,5250.0,0.5474724516930427,False
+2026-10-30,Tamil Nadu,Nagapattinam(Uzhavar Sandhai ),Deshi,Local,3800.0,4500.0,4150.0,0.4555619344389327,False
+2026-10-30,Tamil Nadu,Nanganallur(Uzhavar Sandhai ),Deshi,Local,3000.0,3500.0,3250.0,0.37602521078007894,False
+2026-10-30,Tamil Nadu,Naravarikuppam(Uzhavar Sandhai ),Deshi,Local,4000.0,4000.0,4000.0,0.41295887365066075,False
+2026-10-30,Tamil Nadu,Natrampalli(Uzhavar Sandhai ),Deshi,Local,3000.0,4000.0,3500.0,0.45154301598207885,False
+2026-10-30,Tamil Nadu,Needamangalam(Uzhavar Sandhai ),Deshi,Local,3400.0,3400.0,3400.0,0.3949693461545036,False
+2026-10-30,Tamil Nadu,Ngo Colony(Uzhavar Sandhai ),Deshi,Local,3500.0,4000.0,3750.0,0.3685207992244825,False
+2026-10-30,Tamil Nadu,Padappai(Uzhavar Sandhai ),Local,Local,2500.0,3600.0,3050.0,0.48272415135801,False
+2026-10-30,Tamil Nadu,Palacode(Uzhavar Sandhai ),Local,Local,2800.0,3000.0,2900.0,0.4208621501436128,False
+2026-10-30,Tamil Nadu,Palanganatham(Uzhavar Sandhai ),Deshi,Local,3400.0,3800.0,3600.0,0.3844072142352839,False
+2026-10-30,Tamil Nadu,Palani(Uzhavar Sandhai ),Deshi,Local,2000.0,3500.0,2750.0,0.5550186493429353,False
+2026-10-30,Tamil Nadu,Palayamkottai(Uzhavar Sandhai ),Deshi,Local,3800.0,4000.0,3900.0,0.4145902752285013,False
+2026-10-30,Tamil Nadu,Palladam(Uzhavar Sandhai ),Local,Local,3500.0,4000.0,3750.0,0.3685207992244825,False
+2026-10-30,Tamil Nadu,Pallapatti(Uzhavar Sandhai ),Other,Local,3500.0,4000.0,3750.0,0.3685207992244825,False
+2026-10-30,Tamil Nadu,Pallavaram(Uzhavar Sandhai ),Deshi,Local,3500.0,4000.0,3750.0,0.3685207992244825,False
+2026-10-30,Tamil Nadu,Pallikonda(Uzhavar Sandhai),Deshi,Local,3500.0,3500.0,3500.0,0.39195973925136673,False
+2026-10-30,Tamil Nadu,Panruti(Uzhavar Sandhai ),Deshi,Local,3000.0,3000.0,3000.0,0.39397832112893383,False
+2026-10-30,Tamil Nadu,Papanasam(Uzhavar Sandhai ),Deshi,Local,3800.0,4200.0,4000.0,0.4055551081826862,False
+2026-10-30,Tamil Nadu,Paramakudi(Uzhavar Sandhai ),Deshi,Local,4000.0,4500.0,4250.0,0.4198603635904156,False
+2026-10-30,Tamil Nadu,Paramathivelur(Uzhavar Sandhai ),Deshi,Local,4000.0,4600.0,4300.0,0.4390251092368048,False
+2026-10-30,Tamil Nadu,Paruthipattu(Uzhavar Sandhai ),Deshi,Local,4000.0,4000.0,4000.0,0.41295887365066075,False
+2026-10-30,Tamil Nadu,Pattukottai(Uzhavar Sandhai ),Deshi,Local,4600.0,4600.0,4600.0,0.5038773574839168,False
+2026-10-30,Tamil Nadu,Pennagaram(Uzhavar Sandhai ),Deshi,Local,4000.0,4200.0,4100.0,0.4344331887769792,False
+2026-10-30,Tamil Nadu,Perambakkam(Uzhavar Sandhai ),Deshi,Local,4000.0,4000.0,4000.0,0.41295887365066075,False
+2026-10-30,Tamil Nadu,Perambalur(Uzhavar Sandhai ),Deshi,Local,4000.0,4400.0,4200.0,0.43045682587808004,False
+2026-10-30,Tamil Nadu,Perampet(Uzhavar Sandhai),Deshi,Local,2500.0,2500.0,2500.0,0.42701414423091716,False
+2026-10-30,Tamil Nadu,Peravurani(Uzhavar Sandhai),Deshi,Local,4400.0,4400.0,4400.0,0.491461226511086,False
+2026-10-30,Tamil Nadu,Periyakulam(Uzhavar Sandhai ),Other,Local,3500.0,4000.0,3750.0,0.3685207992244825,False
+2026-10-30,Tamil Nadu,Periyar Nagar(Uzhavar Sandhai ),Other,Local,3000.0,3400.0,3200.0,0.37567717877595624,False
+2026-10-30,Tamil Nadu,Perundurai(Uzhavar Sandhai ),Other,Local,3000.0,3500.0,3250.0,0.37602521078007894,False
+2026-10-30,Tamil Nadu,Pollachi(Uzhavar Sandhai ),Deshi,Local,3500.0,4000.0,3750.0,0.3685207992244825,False
+2026-10-30,Tamil Nadu,Polur(Uzhavar Sandhai ),Deshi,Local,2500.0,3000.0,2750.0,0.4038651387580735,False
+2026-10-30,Tamil Nadu,Ponnamaravathi(Uzhavar Sandhai),Deshi,Local,3500.0,4000.0,3750.0,0.3685207992244825,False
+2026-10-30,Tamil Nadu,Pudukottai(Uzhavar Sandhai ),Deshi,Local,3500.0,4000.0,3750.0,0.3685207992244825,False
+2026-10-30,Tamil Nadu,Rajapalayam(Uzhavar Sandhai ),Deshi,Local,3000.0,3500.0,3250.0,0.37602521078007894,False
+2026-10-30,Tamil Nadu,Ramanathapuram(Uzhavar Sandhai ),Deshi,Local,4000.0,4500.0,4250.0,0.4198603635904156,False
+2026-10-30,Tamil Nadu,Ranipettai(Uzhavar Sandhai ),Other,Local,2800.0,2800.0,2800.0,0.4149987629620609,False
+2026-10-30,Tamil Nadu,Rasipuram(Uzhavar Sandhai ),Other,Local,4800.0,5000.0,4900.0,0.5157554366093057,False
+2026-10-30,Tamil Nadu,Rspuram(Uzhavar Sandhai ),Local,Local,3300.0,3500.0,3400.0,0.39948101290095567,False
+2026-10-30,Tamil Nadu,Sampath Nagar(Uzhavar Sandhai ),Other,Local,3000.0,3400.0,3200.0,0.37567717877595624,False
+2026-10-30,Tamil Nadu,Sankarankoil(Uzhavar Sandhai ),Deshi,Local,3500.0,3500.0,3500.0,0.39195973925136673,False
+2026-10-30,Tamil Nadu,Sankarapuram(Uzhavar Sandhai ),Deshi,Local,3500.0,3500.0,3500.0,0.39195973925136673,False
+2026-10-30,Tamil Nadu,Sathiyamagalam(Uzhavar Sandhai ),Local,Local,3000.0,3400.0,3200.0,0.37567717877595624,False
+2026-10-30,Tamil Nadu,Sathur(Uzhavar Sandhai ),Deshi,Local,3500.0,4000.0,3750.0,0.3685207992244825,False
+2026-10-30,Tamil Nadu,Singampunari(Uzhavar Sandhai ),Other,Local,3600.0,4000.0,3800.0,0.38953742050769274,False
+2026-10-30,Tamil Nadu,Singanallur(Uzhavar Sandhai ),Deshi,Local,3000.0,3700.0,3350.0,0.42604667983525996,False
+2026-10-30,Tamil Nadu,Sirkali(Uzhavar Sandhai ),Deshi,Local,4500.0,5000.0,4750.0,0.47858282748429914,False
+2026-10-30,Tamil Nadu,Sivagangai(Uzhavar Sandhai ),Deshi,Local,3600.0,4000.0,3800.0,0.38953742050769274,False
+2026-10-30,Tamil Nadu,Sivakasi(Uzhavar Sandhai ),Deshi,Local,3000.0,3500.0,3250.0,0.37602521078007894,False
+2026-10-30,Tamil Nadu,Sooramangalam(Uzhavar Sandhai ),Local,Local,3000.0,3400.0,3200.0,0.37567717877595624,False
+2026-10-30,Tamil Nadu,Srivilliputhur(Uzhavar Sandhai ),Deshi,Local,3500.0,4000.0,3750.0,0.3685207992244825,False
+2026-10-30,Tamil Nadu,Sulur(Uzhavar Sandhai ),Deshi,Local,3000.0,3700.0,3350.0,0.42604667983525996,False
+2026-10-30,Tamil Nadu,Sundarapuram(Uzhavar Sandhai ),Local,Local,3400.0,3800.0,3600.0,0.3844072142352839,False
+2026-10-30,Tamil Nadu,Sunguvarchatram(Uzhavar Sandhai ),Other,Local,3000.0,3200.0,3100.0,0.4007735218560014,False
+2026-10-30,Tamil Nadu,Tamarainagar(Uzhavar Sandhai ),Deshi,Local,2500.0,3000.0,2750.0,0.4038651387580735,False
+2026-10-30,Tamil Nadu,Tenkasi(Uzhavar Sandhai ),Local,Local,2500.0,2500.0,2500.0,0.42701414423091716,False
+2026-10-30,Tamil Nadu,Thalavadi(Uzhavar Sandhai ),Other,Local,3000.0,3400.0,3200.0,0.37567717877595624,False
+2026-10-30,Tamil Nadu,Thalavaipuram(Uzhavar Sandhai ),Deshi,Local,2800.0,3500.0,3150.0,0.4199272254093762,False
+2026-10-30,Tamil Nadu,Thammampatti(Uzhavar Sandhai ),Deshi,Local,2500.0,3400.0,2950.0,0.46428807334650896,False
+2026-10-30,Tamil Nadu,Thanjavur(Uzhavar Sandhai ),Deshi,Local,3400.0,3400.0,3400.0,0.3949693461545036,False
+2026-10-30,Tamil Nadu,Thathakapatti(Uzhavar Sandhai ),Deshi,Local,3000.0,3600.0,3300.0,0.3993325220725836,False
+2026-10-30,Tamil Nadu,Theni(Uzhavar Sandhai ),Other,Local,3000.0,3600.0,3300.0,0.3993325220725836,False
+2026-10-30,Tamil Nadu,Thiruchengodu Rm,Deshi,Local,4000.0,4400.0,4200.0,0.43045682587808004,False
+2026-10-30,Tamil Nadu,Thirukalukundram(Uzhavar Sandhai ),Deshi,Local,3000.0,3000.0,3000.0,0.39397832112893383,False
+2026-10-30,Tamil Nadu,Thirumangalam(Uzhavar Sandhai ),Deshi,Local,3400.0,3800.0,3600.0,0.3844072142352839,False
+2026-10-30,Tamil Nadu,Thirupathur Rm,Deshi,Local,3500.0,3500.0,3500.0,0.39195973925136673,False
+2026-10-30,Tamil Nadu,Thiruverumbur(Uzhavar Sandhai ),Other,Local,3000.0,3200.0,3100.0,0.4007735218560014,False
+2026-10-30,Tamil Nadu,Thuraiyur Rm,Other,Local,2800.0,3200.0,3000.0,0.3891784875433037,False
+2026-10-30,Tamil Nadu,Tindivanam Rm,Deshi,Local,2800.0,2800.0,2800.0,0.4149987629620609,False
+2026-10-30,Tamil Nadu,Tirukattupalli(Uzhavar Sandhai ),Deshi,Local,3000.0,3000.0,3000.0,0.39397832112893383,False
+2026-10-30,Tamil Nadu,Tirupatthur(Uzhavar Sandhai ),Deshi,Local,3800.0,4200.0,4000.0,0.4055551081826862,False
+2026-10-30,Tamil Nadu,Tiruppur(North)(Uzhavar Sandhai ),Deshi,Local,3600.0,3800.0,3700.0,0.4117786894100378,False
+2026-10-30,Tamil Nadu,Tiruppur(South)(Uzhavar Sandhai ),Local,Local,3000.0,3500.0,3250.0,0.37602521078007894,False
+2026-10-30,Tamil Nadu,Tiruthani(Uzhavar Sandhai ),Deshi,Local,4000.0,4000.0,4000.0,0.41295887365066075,False
+2026-10-30,Tamil Nadu,Tiruvallur(Uzhavar Sandhai ),Deshi,Local,4000.0,4000.0,4000.0,0.41295887365066075,False
+2026-10-30,Tamil Nadu,Tiruvannamalai(Uzhavar Sandhai ),Deshi,Local,2000.0,2500.0,2250.0,0.4426092773110675,False
+2026-10-30,Tamil Nadu,Tiruvarur(Uzhavar Sandhai ),Deshi,Local,3600.0,3600.0,3600.0,0.3957158047500122,False
+2026-10-30,Tamil Nadu,Tuticorin(Uzhavar Sandhai ),Local,Local,3500.0,4000.0,3750.0,0.3685207992244825,False
+2026-10-30,Tamil Nadu,Udhagamandalam(Uzhavar Sandhai ),Deshi,Local,3500.0,4000.0,3750.0,0.3685207992244825,False
+2026-10-30,Tamil Nadu,Udumalpettai Rm,Deshi,Local,4000.0,4500.0,4250.0,0.4198603635904156,False
+2026-10-30,Tamil Nadu,Ulundurpet Rm,Deshi,Local,3000.0,3000.0,3000.0,0.39397832112893383,False
+2026-10-30,Tamil Nadu,Usilampatti(Uzhavar Sandhai ),Deshi,Local,3400.0,3800.0,3600.0,0.3844072142352839,False
+2026-10-30,Tamil Nadu,Vadalur(Uzhavar Sandhai ),Local,Local,4000.0,4000.0,4000.0,0.41295887365066075,False
+2026-10-30,Tamil Nadu,Vadaseri Rm,Local,Local,4000.0,4500.0,4250.0,0.4198603635904156,False
+2026-10-30,Tamil Nadu,Vadavalli(Uzhavar Sandhai ),Local,Local,3200.0,3600.0,3400.0,0.38591684451732505,False
+2026-10-30,Tamil Nadu,Valangaiman Rm,Deshi,Local,3400.0,3800.0,3600.0,0.3844072142352839,False
+2026-10-30,Tamil Nadu,Vandavasi(Uzhavar Sandhai ),Local,Local,2500.0,3000.0,2750.0,0.4038651387580735,False
+2026-10-30,Tamil Nadu,Vazhapadi(Uzhavar Sandhai),Deshi,Local,3000.0,3600.0,3300.0,0.3993325220725836,False
+2026-10-30,Tamil Nadu,Vedaranyam(Uzhavar Sandhai),Deshi,Local,5000.0,5000.0,5000.0,0.5383192683528577,False
+2026-10-30,Tamil Nadu,Vedasandur(Uzhavar Sandhai ),Deshi,Local,3000.0,3500.0,3250.0,0.37602521078007894,False
+2026-10-30,Tamil Nadu,Velayuthampalayam(Uzhavar Sandhai ),Other,Local,3200.0,4000.0,3600.0,0.44193715499491576,False
+2026-10-30,Tamil Nadu,Vellore Rm,Deshi,Local,2800.0,3000.0,2900.0,0.4208621501436128,False
+2026-10-30,Tamil Nadu,Vengamedu(Uzhavar Sandhai ),Deshi,Local,3500.0,4000.0,3750.0,0.3685207992244825,False
+2026-10-30,Tamil Nadu,Villupuram(Uzhavar Sandhai ),Deshi,Local,3500.0,3500.0,3500.0,0.39195973925136673,False
+2026-10-30,Tamil Nadu,Viralimalai(Uzhavar Sandhai ),Other,Local,3500.0,4000.0,3750.0,0.3685207992244825,False
+2026-10-30,Tamil Nadu,Virudhunagar(Uzhavar Sandhai ),Deshi,Local,3000.0,3500.0,3250.0,0.37602521078007894,False
+2026-10-30,Tamil Nadu,Viruthachalam(Uzhavar Sandhai ),Deshi,Local,4000.0,4000.0,4000.0,0.41295887365066075,False
+2026-10-30,Telangana,Adilabad(Rythu Bazar),Local,Local,4000.0,4200.0,4000.0,0.4183846625738866,False
+2026-10-30,Telangana,Chevella APMC,Local,Local,1200.0,1200.0,1200.0,0.5413754105790239,False
+2026-10-30,Telangana,"Excise Colony,Rbz",Other,Grade A,3600.0,3600.0,3600.0,0.3957158047500122,False
+2026-10-30,Telangana,Mahboob Manison APMC,Tomato,Local,1600.0,2400.0,2000.0,0.49216272360347757,False
+2026-10-30,Telangana,Miryalguda(Rythu Bazar),Deshi,Grade A,3500.0,3500.0,3500.0,0.39195973925136673,False
+2026-10-30,Telangana,"Pavilion Ground,Khammam,Rbz",Deshi,Faq,3600.0,3600.0,3600.0,0.3957158047500122,False
+2026-10-30,Telangana,Rythu Bazar Mehdipatnam,Deshi,Grade A,2700.0,2700.0,2700.0,0.4202488863448545,False
+2026-10-30,Telangana,Sangareddy APMC,Other,Grade B,2700.0,2700.0,2700.0,0.4202488863448545,False
+2026-10-30,Telangana,"Saroornagar,Rbz",Other,Medium,2700.0,2700.0,2700.0,0.4202488863448545,False
+2026-10-30,Telangana,"Sattupalli(Ramalayam),Rbz",Tomato,Faq,3000.0,4000.0,3600.0,0.4701527714021607,False
+2026-10-30,Telangana,Siddipet(Rythu Bazar),Local,Grade A,2500.0,3500.0,3000.0,0.45790725276506006,False
+2026-10-30,Telangana,"Vanasthalipuram,Rbz",Other,Grade A,2700.0,2700.0,2700.0,0.4202488863448545,False
+2026-10-30,Tripura,Dasda APMC,Hybrid,Faq,3500.0,3700.0,3600.0,0.40604481602092496,False
+2026-10-30,Tripura,Teliamura APMC,Hybrid,Medium,4000.0,4200.0,4100.0,0.4344331887769792,False
+2026-10-30,Uttar Pradesh,Kosikalan APMC,Deshi,Faq,1900.0,2040.0,1970.0,0.47926482506512735,False
+2026-10-30,Uttarakhand,Kicchha APMC,Hybrid,Non-Faq,2300.0,2500.0,2400.0,0.4532690348144452,False
+2026-10-30,Uttarakhand,Manglaur APMC,Other,Local,1000.0,1500.0,1300.0,0.5279245587890468,False
+2026-10-30,Uttarakhand,Ramnagar APMC,Other,Local,2500.0,3000.0,2600.0,0.4374624040272037,False
+2026-10-30,Uttarakhand,Rishikesh APMC,Other,Medium,900.0,1100.0,1000.0,0.5454560369034674,False
+2026-10-30,Uttarakhand,Roorkee APMC,Other,Medium,1200.0,2200.0,1600.0,0.5321701034613662,False
+2026-10-30,Uttarakhand,Rudrapur APMC,Tomato,Medium,1000.0,1500.0,1200.0,0.530812525637429,False
+2026-10-30,Uttarakhand,Sitarganj APMC,Other,Grade B,1200.0,2000.0,1500.0,0.5289146260557746,False
+2026-10-30,Uttarakhand,Vikasnagar APMC,Other,Faq,1000.0,1500.0,1500.0,0.5076991191653769,False
+2026-10-30,West Bengal,Asansol APMC,Hybrid,Faq,2650.0,2900.0,2785.0,0.4254642530740819,False
+2026-10-30,West Bengal,Birbhum APMC,Hybrid,Faq,4900.0,5000.0,4960.0,0.5195560034756569,False
+2026-10-30,West Bengal,Bolpur APMC,Hybrid,Faq,4900.0,5000.0,4970.0,0.5277008501191963,False
+2026-10-30,West Bengal,Darjeeling APMC,Other,Faq,2600.0,2800.0,2700.0,0.4320611002428183,False
+2026-10-30,West Bengal,Durgapur APMC,Hybrid,Faq,2650.0,2900.0,2765.0,0.42405490959371456,False
+2026-10-30,West Bengal,Karsiyang(Matigara) APMC,Other,Faq,2600.0,2800.0,2700.0,0.4320611002428183,False
+2026-10-30,West Bengal,Khatra APMC,Tomato,Faq,2800.0,3500.0,3200.0,0.4154818404786846,False
+2026-10-30,West Bengal,Sainthia APMC,Hybrid,Faq,4900.0,5000.0,4960.0,0.5195560034756569,False
+2026-10-30,West Bengal,Siliguri APMC,Tomato,Faq,1600.0,1800.0,1700.0,0.49401966912477957,False

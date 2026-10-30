@@ -1,0 +1,18 @@
+{
+  "model": "XGBoost Regressor (Arrivals)",
+  "mae_quintals": 124.9,
+  "rmse_quintals": 159.6,
+  "r2": 0.1543,
+  "features": [
+    "arrivals_lag1",
+    "arrivals_ma7",
+    "price_lag1",
+    "price_ma7",
+    "temperature",
+    "rainfall",
+    "humidity",
+    "dayofweek",
+    "day",
+    "month"
+  ]
+}

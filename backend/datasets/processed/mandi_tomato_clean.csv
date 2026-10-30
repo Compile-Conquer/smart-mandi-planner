@@ -1,0 +1,340 @@
+state,district,mandi,commodity,variety,grade,date,flag_bad_date,min_price,max_price,modal_price,arrivals_quintals,mandi_id,flag_price_missing,flag_price_order,flag_placeholder_price,flag_unit_suspect,source_file
+Kerala,Kozhikode (Calicut),Mukkom Market,Tomato,Tomato,Faq,2026-10-30,False,3400.0,3600.0,3500.0,,kerala_mukkom_market,False,False,False,False,mandi_prices_2026-10-30.csv
+Punjab,Fazilka,Fazilka APMC,Tomato,Tomato,Faq,2026-10-30,False,1200.0,1200.0,1200.0,,punjab_fazilka_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Haryana,Kurukshetra,Shahabad APMC,Tomato,Tomato,Medium,2026-10-30,False,1500.0,2200.0,2000.0,,haryana_shahabad_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Haryana,Sonipat,Ganaur APMC,Tomato,Tomato,Faq,2026-10-30,False,2500.0,3000.0,2800.0,,haryana_ganaur_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Punjab,Gurdaspur,Quadian APMC,Tomato,Other,Grade A,2026-10-30,False,3800.0,4000.0,3900.0,,punjab_quadian_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Punjab,Hoshiarpur,Garhshankar (Kotfatuhi) APMC,Tomato,Other,Faq,2026-10-30,False,2500.0,2500.0,2500.0,,punjab_garhshankar_kotfatuhi_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Odisha,Bolangir,Kantabaji APMC,Tomato,Other,Grade B,2026-10-30,False,2000.0,3000.0,2500.0,,odisha_kantabaji_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Kerala,Kottayam,Ettumanoor Market,Tomato,Tomato,Faq,2026-10-30,False,3600.0,4000.0,3800.0,,kerala_ettumanoor_market,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Kallakurichi,Ulundurpet Rm,Tomato,Deshi,Local,2026-10-30,False,3000.0,3000.0,3000.0,,tamil_nadu_ulundurpet_rm,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thiruppur,Tiruppur (South) (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,3000.0,3500.0,3250.0,,tamil_nadu_tiruppur_south_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Erode,Perundurai (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3000.0,3500.0,3250.0,,tamil_nadu_perundurai_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Dharmapuri,Dharmapuri (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,3200.0,3400.0,3300.0,,tamil_nadu_dharmapuri_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Dharmapuri,Palacode (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,2800.0,3000.0,2900.0,,tamil_nadu_palacode_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Dindigul,Dindigul (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3000.0,3500.0,3250.0,,tamil_nadu_dindigul_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Kallakurichi,Sankarapuram (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3500.0,3500.0,3500.0,,tamil_nadu_sankarapuram_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Kancheepuram,Sunguvarchatram (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3000.0,3200.0,3100.0,,tamil_nadu_sunguvarchatram_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Krishnagiri,Avallapalli (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,2500.0,3000.0,2750.0,,tamil_nadu_avallapalli_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Krishnagiri,Hosur (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,2500.0,3000.0,2750.0,,tamil_nadu_hosur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Namakkal,Kumarapalayam (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,4200.0,5000.0,4600.0,,tamil_nadu_kumarapalayam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Namakkal,Mohanur (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,4200.0,4800.0,4500.0,,tamil_nadu_mohanur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Salem,Mettur (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,3000.0,4000.0,3500.0,,tamil_nadu_mettur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Salem,Thathakapatti (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3000.0,3600.0,3300.0,,tamil_nadu_thathakapatti_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Theni,Kambam (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3500.0,3600.0,3550.0,,tamil_nadu_kambam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Tirunelveli,Ambasamudram (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,3300.0,4000.0,3650.0,,tamil_nadu_ambasamudram_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thiruppur,Tiruppur (North) (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3600.0,3800.0,3700.0,,tamil_nadu_tiruppur_north_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Tiruvarur,Muthupettai (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3400.0,3400.0,3400.0,,tamil_nadu_muthupettai_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Salem,Elampillai (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3000.0,3500.0,3250.0,,tamil_nadu_elampillai_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Sivagangai,Karaikudi (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3800.0,4200.0,4000.0,,tamil_nadu_karaikudi_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thiruchirappalli,Kknagar (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3200.0,3400.0,3300.0,,tamil_nadu_kknagar_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thiruchirappalli,Manachanallur (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3000.0,3000.0,3000.0,,tamil_nadu_manachanallur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Virudhunagar,Thalavaipuram (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,2800.0,3500.0,3150.0,,tamil_nadu_thalavaipuram_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Chengalpet,Medavakkam (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3000.0,3500.0,3250.0,,tamil_nadu_medavakkam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Chengalpet,Pallavaram (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3500.0,4000.0,3750.0,,tamil_nadu_pallavaram_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Kannyiakumari,Myladi (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,5000.0,5500.0,5250.0,,tamil_nadu_myladi_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Telangana,Ranga Reddy,"Saroornagar,Rbz",Tomato,Other,Medium,2026-10-30,False,2700.0,2700.0,2700.0,,telangana_saroornagar_rbz,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thiruppur,Udumalpettai Rm,Tomato,Deshi,Local,2026-10-30,False,4000.0,4500.0,4250.0,,tamil_nadu_udumalpettai_rm,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thirupathur,Thirupathur Rm,Tomato,Deshi,Local,2026-10-30,False,3500.0,3500.0,3500.0,,tamil_nadu_thirupathur_rm,False,False,False,False,mandi_prices_2026-10-30.csv
+Karnataka,Bengaluru Rural,Doddaballapur APMC,Tomato,Tomato,Medium,2026-10-30,False,1000.0,1500.0,1200.0,,karnataka_doddaballapur_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Gujarat,Surendranagar,Vadhvan APMC,Tomato,Tomato,Medium,2026-10-30,False,1000.0,2000.0,1500.0,,gujarat_vadhvan_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Gujarat,Amreli,Damnagar APMC,Tomato,Local,Local,2026-10-30,False,2500.0,2500.0,2500.0,,gujarat_damnagar_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Gujarat,Surat,Surat APMC,Tomato,Other,Faq,2026-10-30,False,400.0,1000.0,700.0,,gujarat_surat_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Erode,Thalavadi (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3000.0,3400.0,3200.0,,tamil_nadu_thalavadi_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Cuddalore,Viruthachalam (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,4000.0,4000.0,4000.0,,tamil_nadu_viruthachalam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thenkasi,Sankarankoil (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3500.0,3500.0,3500.0,,tamil_nadu_sankarankoil_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Bihar,Kaimur/Bhabhua,Kaimur APMC,Tomato,Deshi,Faq,2026-10-30,False,2875.0,2875.0,2875.0,,bihar_kaimur_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Virudhunagar,Aruppukottai (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3000.0,3500.0,3250.0,,tamil_nadu_aruppukottai_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thiruppur,Dharapuram (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,3500.0,4000.0,3750.0,,tamil_nadu_dharapuram_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Kallakurichi,Kallakurichi (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3500.0,3500.0,3500.0,,tamil_nadu_kallakurichi_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Salem,Athur (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,3000.0,3800.0,3400.0,,tamil_nadu_athur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+West Bengal,Darjeeling,Karsiyang (Matigara) APMC,Tomato,Other,Faq,2026-10-30,False,2600.0,2800.0,2700.0,,west_bengal_karsiyang_matigara_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thiruvannamalai,Tiruvannamalai (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,2000.0,2500.0,2250.0,,tamil_nadu_tiruvannamalai_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Tiruvarur,Mannargudi I (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3600.0,3600.0,3600.0,,tamil_nadu_mannargudi_i_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thiruvallur,Paruthipattu (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,4000.0,4000.0,4000.0,,tamil_nadu_paruthipattu_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Vellore,Gudiyatham (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,2000.0,2500.0,2250.0,,tamil_nadu_gudiyatham_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Haryana,Rohtak,Rohtak APMC,Tomato,Other,Medium,2026-10-30,False,1500.0,3000.0,2000.0,,haryana_rohtak_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Punjab,Hoshiarpur,Mukerian APMC,Tomato,Tomato,Local,2026-10-30,False,1200.0,1600.0,1400.0,,punjab_mukerian_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Punjab,Ludhiana,Samrala APMC,Tomato,Other,Local,2026-10-30,False,2500.0,3200.0,3000.0,,punjab_samrala_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thiruvannamalai,Cheyyar (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,2500.0,3000.0,2750.0,,tamil_nadu_cheyyar_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thanjavur,Papanasam (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3800.0,4200.0,4000.0,,tamil_nadu_papanasam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Uttarakhand,Nanital,Ramnagar APMC,Tomato,Other,Local,2026-10-30,False,2500.0,3000.0,2600.0,,uttarakhand_ramnagar_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Rajasthan,Jalore,Bhinmal APMC,Tomato,Other,Non-Faq,2026-10-30,False,1000.0,1100.0,1050.0,,rajasthan_bhinmal_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Odisha,Boudh,Boudh APMC,Tomato,Other,Local,2026-10-30,False,3000.0,4000.0,3500.0,,odisha_boudh_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Odisha,Sundergarh,Sargipali APMC,Tomato,Other,Faq,2026-10-30,False,2500.0,2800.0,2600.0,,odisha_sargipali_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Odisha,Keonjhar,Keonjhar APMC,Tomato,Other,Non-Faq,2026-10-30,False,4500.0,5000.0,5000.0,,odisha_keonjhar_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Haryana,Gurgaon,Gurgaon APMC,Tomato,Other,Grade B,2026-10-30,False,1000.0,2000.0,1500.0,,haryana_gurgaon_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Telangana,Hanumakonda,"Excise Colony,Rbz",Tomato,Other,Grade A,2026-10-30,False,3600.0,3600.0,3600.0,,telangana_excise_colony_rbz,False,False,False,False,mandi_prices_2026-10-30.csv
+Odisha,Sundergarh,Bonai APMC,Tomato,Other,Grade Range-1,2026-10-30,False,890.0,1050.0,965.0,,odisha_bonai_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Madhya Pradesh,Sagar,Sagar (F&V) APMC,Tomato,Local,Local,2026-10-30,False,500.0,600.0,550.0,,madhya_pradesh_sagar_f_v_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Coimbatore,Singanallur (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3000.0,3700.0,3350.0,,tamil_nadu_singanallur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Karur,Karur (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3500.0,4000.0,3750.0,,tamil_nadu_karur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Assam,Kamrup,Pamohi (Garchuk) APMC,Tomato,Local,Faq,2026-10-30,False,2000.0,3000.0,2500.0,,assam_pamohi_garchuk_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Bihar,Buxar,Buxur APMC,Tomato,Deshi,Local,2026-10-30,False,2200.0,2215.0,2210.0,,bihar_buxur_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Kannyiakumari,Vadaseri Rm,Tomato,Local,Local,2026-10-30,False,4000.0,4500.0,4250.0,,tamil_nadu_vadaseri_rm,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Krishnagiri,Kaveripattinam (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,4000.0,4000.0,4000.0,,tamil_nadu_kaveripattinam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tripura,Khowai,Teliamura APMC,Tomato,Hybrid,Medium,2026-10-30,False,4000.0,4200.0,4100.0,,tripura_teliamura_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Himachal Pradesh,Solan,Smy Wakhnaghat,Tomato,Deshi,Medium,2026-10-30,False,600.0,1400.0,1400.0,,himachal_pradesh_smy_wakhnaghat,False,False,False,False,mandi_prices_2026-10-30.csv
+Haryana,Karnal,Tarori APMC,Tomato,Other,Medium,2026-10-30,False,3000.0,4500.0,4000.0,,haryana_tarori_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+West Bengal,Paschim Bardhaman,Asansol APMC,Tomato,Hybrid,Faq,2026-10-30,False,2650.0,2900.0,2785.0,,west_bengal_asansol_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Andhra Pradesh,Annamayya,Kalikiri APMC,Tomato,Hybrid,Faq,2026-10-30,False,2000.0,3000.0,2400.0,,andhra_pradesh_kalikiri_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Telangana,Khammam,"Pavilion Ground,Khammam,Rbz",Tomato,Deshi,Faq,2026-10-30,False,3600.0,3600.0,3600.0,,telangana_pavilion_ground_khammam_rbz,False,False,False,False,mandi_prices_2026-10-30.csv
+Kerala,Kollam,Anchal Market,Tomato,Tomato,Local,2026-10-30,False,4800.0,4800.0,4800.0,,kerala_anchal_market,False,False,False,False,mandi_prices_2026-10-30.csv
+Rajasthan,Jaipur,Jaipur (F&V) APMC,Tomato,Other,Faq,2026-10-30,False,1200.0,2500.0,1850.0,,rajasthan_jaipur_f_v_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Madhya Pradesh,Dewas,Haatpipliya (F&V) APMC,Tomato,Tomato,Local,2026-10-30,False,1600.0,2400.0,2000.0,,madhya_pradesh_haatpipliya_f_v_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Jammu And Kashmir,Jammu,Mac F&V Market Narwal Jammu,Tomato,Tomato,Faq,2026-10-30,False,2000.0,2500.0,2250.0,,jammu_and_kashmir_mac_f_v_market_narwal_jammu,False,False,False,False,mandi_prices_2026-10-30.csv
+Karnataka,Chamarajanagar,Chamarajanagar APMC,Tomato,Tomato,Local,2026-10-30,False,2000.0,2800.0,2400.0,,karnataka_chamarajanagar_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Kancheepuram,Kancheepuram (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3000.0,3200.0,3100.0,,tamil_nadu_kancheepuram_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Dharmapuri,Karimangalam (Uzhavar Sandhai),Tomato,Local,Local,2026-10-30,False,3000.0,3400.0,3200.0,,tamil_nadu_karimangalam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Mayiladuthurai,Sirkali (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,4500.0,5000.0,4750.0,,tamil_nadu_sirkali_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Salem,Mecheri (Uzhavar Sandhai),Tomato,Deshi,Local,2026-10-30,False,3000.0,3500.0,3250.0,,tamil_nadu_mecheri_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Ranipet,Arcot (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3000.0,3000.0,3000.0,,tamil_nadu_arcot_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Ranipet,Ranipettai (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,2800.0,2800.0,2800.0,,tamil_nadu_ranipettai_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Tirunelveli,Melapalayam (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3800.0,4000.0,3900.0,,tamil_nadu_melapalayam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Tirunelveli,Palayamkottai (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3800.0,4000.0,3900.0,,tamil_nadu_palayamkottai_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Coimbatore,Sulur (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3000.0,3700.0,3350.0,,tamil_nadu_sulur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Cuddalore,Panruti (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3000.0,3000.0,3000.0,,tamil_nadu_panruti_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Salem,Attayampatti (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3400.0,3400.0,3400.0,,tamil_nadu_attayampatti_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Chengalpet,Madhuranthagam (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3000.0,3000.0,3000.0,,tamil_nadu_madhuranthagam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Kerala,Malappuram,Perinthalmanna Market,Tomato,Tomato,Large,2026-10-30,False,2000.0,2500.0,2300.0,,kerala_perinthalmanna_market,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Tiruvarur,Valangaiman Rm,Tomato,Deshi,Local,2026-10-30,False,3400.0,3800.0,3600.0,,tamil_nadu_valangaiman_rm,False,False,False,False,mandi_prices_2026-10-30.csv
+Gujarat,Gandhinagar,Mansa (Manas Veg Yard) APMC,Tomato,Tomato,Local,2026-10-30,False,1000.0,1000.0,1000.0,,gujarat_mansa_manas_veg_yard_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Madurai,Chokkikulam (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3600.0,3800.0,3700.0,,tamil_nadu_chokkikulam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+West Bengal,Birbhum,Bolpur APMC,Tomato,Hybrid,Faq,2026-10-30,False,4900.0,5000.0,4970.0,,west_bengal_bolpur_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Maharashtra,Ratnagiri,APMC Ratnagiri (Nachane),Tomato,Other,Local,2026-10-30,False,600.0,700.0,650.0,,maharashtra_apmc_ratnagiri_nachane,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Nagapattinam,Nagapattinam (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3800.0,4500.0,4150.0,,tamil_nadu_nagapattinam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Theni,Andipatti (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3300.0,3500.0,3400.0,,tamil_nadu_andipatti_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Bihar,Luckeesarai,Surjyagarha APMC,Tomato,Deshi,Local,2026-10-30,False,3000.0,3000.0,3000.0,,bihar_surjyagarha_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thiruvallur,Tiruvallur (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,4000.0,4000.0,4000.0,,tamil_nadu_tiruvallur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Madhya Pradesh,Khargone,Sanawad (F&V) APMC,Tomato,Deshi,Medium,2026-10-30,False,1000.0,1000.0,1000.0,,madhya_pradesh_sanawad_f_v_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Madhya Pradesh,Dhar,Manawar (F&V) APMC,Tomato,Tomato,Grade B,2026-10-30,False,900.0,1200.0,955.0,,madhya_pradesh_manawar_f_v_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Vellore,Katpadi (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3600.0,3600.0,3600.0,,tamil_nadu_katpadi_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Madurai,Melur (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3400.0,3800.0,3600.0,,tamil_nadu_melur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Pudukkottai,Aranthangi (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3500.0,4000.0,3750.0,,tamil_nadu_aranthangi_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Maharashtra,Pune,Pune (Pimpri),Tomato,Local,Local,2026-10-30,False,1000.0,1000.0,1000.0,,maharashtra_pune_pimpri,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Karur,Kulithalai (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3600.0,4000.0,3800.0,,tamil_nadu_kulithalai_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Madhya Pradesh,Badwani,Sendhwa (F&V) APMC,Tomato,Hybrid,Medium,2026-10-30,False,1100.0,1600.0,1400.0,,madhya_pradesh_sendhwa_f_v_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thirupathur,Natrampalli (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3000.0,4000.0,3500.0,,tamil_nadu_natrampalli_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Theni,Periyakulam (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3500.0,4000.0,3750.0,,tamil_nadu_periyakulam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Virudhunagar,Srivilliputhur (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3500.0,4000.0,3750.0,,tamil_nadu_srivilliputhur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Punjab,Ludhiana,Sahnewal APMC,Tomato,Tomato,Faq,2026-10-30,False,2500.0,2500.0,2500.0,,punjab_sahnewal_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+West Bengal,Bankura,Khatra APMC,Tomato,Tomato,Faq,2026-10-30,False,2800.0,3500.0,3200.0,,west_bengal_khatra_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+West Bengal,Paschim Bardhaman,Durgapur APMC,Tomato,Hybrid,Faq,2026-10-30,False,2650.0,2900.0,2765.0,,west_bengal_durgapur_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Dindigul,Vedasandur (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3000.0,3500.0,3250.0,,tamil_nadu_vedasandur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Punjab,Fazilka,Jalalabad APMC,Tomato,Tomato,Medium,2026-10-30,False,1700.0,2000.0,1800.0,,punjab_jalalabad_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Punjab,Nawanshahr,Nawan Shahar (Subzi Mandi) APMC,Tomato,Tomato,Faq,2026-10-30,False,1500.0,1600.0,1550.0,,punjab_nawan_shahar_subzi_mandi_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Vellore,Pallikonda (Uzhavar Sandhai),Tomato,Deshi,Local,2026-10-30,False,3500.0,3500.0,3500.0,,tamil_nadu_pallikonda_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Pudukkottai,Viralimalai (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3500.0,4000.0,3750.0,,tamil_nadu_viralimalai_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thiruvallur,Ambattur (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,4000.0,4000.0,4000.0,,tamil_nadu_ambattur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thiruvallur,Naravarikuppam (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,4000.0,4000.0,4000.0,,tamil_nadu_naravarikuppam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thiruvallur,Perambakkam (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,4000.0,4000.0,4000.0,,tamil_nadu_perambakkam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thoothukudi,Kovilpatti (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,3000.0,3500.0,3250.0,,tamil_nadu_kovilpatti_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Vellore,Kahithapattarai (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3000.0,3000.0,3000.0,,tamil_nadu_kahithapattarai_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Haryana,Rewari,Rewari APMC,Tomato,Other,Medium,2026-10-30,False,600.0,2400.0,1400.0,,haryana_rewari_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Andhra Pradesh,Annamayya,Punganur APMC,Tomato,Hybrid,Faq,2026-10-30,False,2000.0,3340.0,2670.0,,andhra_pradesh_punganur_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Punjab,Fatehgarh,Sirhind APMC,Tomato,Other,Faq,2026-10-30,False,2500.0,3500.0,3000.0,,punjab_sirhind_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Andhra Pradesh,Annamayya,Valmikipuram APMC,Tomato,Hybrid,Faq,2026-10-30,False,1900.0,3100.0,2300.0,,andhra_pradesh_valmikipuram_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Rajasthan,Bharatpur,Bayana APMC,Tomato,Other,Local,2026-10-30,False,1200.0,1200.0,1200.0,,rajasthan_bayana_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Kerala,Alappuzha,Chengannur Market,Tomato,Tomato,Faq,2026-10-30,False,3800.0,4000.0,4000.0,,kerala_chengannur_market,False,False,False,False,mandi_prices_2026-10-30.csv
+Odisha,Mayurbhanja,Saraskana APMC,Tomato,Tomato,Medium,2026-10-30,False,3500.0,4000.0,3800.0,,odisha_saraskana_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Himachal Pradesh,Kangra,Smy Jaisinghpur,Tomato,Tomato,Faq,2026-10-30,False,2000.0,2100.0,2050.0,,himachal_pradesh_smy_jaisinghpur,False,False,False,False,mandi_prices_2026-10-30.csv
+Odisha,Angul,Angul (Atthamallick) APMC,Tomato,Tomato,Grade B,2026-10-30,False,4000.0,5000.0,4500.0,,odisha_angul_atthamallick_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Coimbatore,Mettupalayam (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3500.0,4000.0,3750.0,,tamil_nadu_mettupalayam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Coimbatore,Kurichi (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,3400.0,3800.0,3600.0,,tamil_nadu_kurichi_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Meghalaya,East Khasi Hills,Shillong APMC,Tomato,017,Faq,2026-10-30,False,1000.0,1600.0,1300.0,,meghalaya_shillong_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Bihar,Gopalgang,Gopalganj APMC,Tomato,Tomato,Grade C,2026-10-30,False,3410.0,3410.0,3410.0,,bihar_gopalganj_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Bihar,Madhubani,Jainagar APMC,Tomato,Deshi,Grade A,2026-10-30,False,3000.0,4000.0,3450.0,,bihar_jainagar_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,The Nilgiris,Gudalur (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3500.0,4000.0,3750.0,,tamil_nadu_gudalur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Himachal Pradesh,Kullu,Smy Bhuntar,Tomato,Other,Faq,2026-10-30,False,1800.0,2000.0,1900.0,,himachal_pradesh_smy_bhuntar,False,False,False,False,mandi_prices_2026-10-30.csv
+Punjab,Mohali,Lalru APMC,Tomato,Deshi,Local,2026-10-30,False,4000.0,4000.0,4000.0,,punjab_lalru_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Odisha,Mayurbhanja,Baripada APMC,Tomato,Tomato,Medium,2026-10-30,False,3000.0,4000.0,3500.0,,odisha_baripada_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Kerala,Thiruvananthapuram,Neyyatinkara Market,Tomato,Tomato,Faq,2026-10-30,False,3400.0,4000.0,3700.0,,kerala_neyyatinkara_market,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Dindigul,Chinnalapatti (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3000.0,3500.0,3250.0,,tamil_nadu_chinnalapatti_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Erode,Periyar Nagar (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3000.0,3400.0,3200.0,,tamil_nadu_periyar_nagar_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Kancheepuram,Kundrathur (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3000.0,3200.0,3100.0,,tamil_nadu_kundrathur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Namakkal,Paramathivelur (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,4000.0,4600.0,4300.0,,tamil_nadu_paramathivelur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Madurai,Palanganatham (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3400.0,3800.0,3600.0,,tamil_nadu_palanganatham_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Perambalur,Perambalur (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,4000.0,4400.0,4200.0,,tamil_nadu_perambalur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Salem,Ammapet (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,3000.0,3500.0,3250.0,,tamil_nadu_ammapet_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Salem,Sooramangalam (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,3000.0,3400.0,3200.0,,tamil_nadu_sooramangalam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Theni,Chinnamanur (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,3600.0,3600.0,3600.0,,tamil_nadu_chinnamanur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thiruvannamalai,Chengam (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,2500.0,3000.0,2750.0,,tamil_nadu_chengam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thiruvannamalai,Keelpennathur (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,4500.0,5000.0,4750.0,,tamil_nadu_keelpennathur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Dharmapuri,A.Jattihalli (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,3000.0,3400.0,3200.0,,tamil_nadu_a_jattihalli_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Pudukkottai,Gandarvakottai (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3500.0,4000.0,3750.0,,tamil_nadu_gandarvakottai_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Karur,Vengamedu (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3500.0,4000.0,3750.0,,tamil_nadu_vengamedu_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Sivagangai,Sivagangai (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3600.0,4000.0,3800.0,,tamil_nadu_sivagangai_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Salem,Hasthampatti (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,3000.0,3600.0,3300.0,,tamil_nadu_hasthampatti_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thiruchirappalli,Manapparai (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3000.0,3000.0,3000.0,,tamil_nadu_manapparai_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Punjab,Mohali,Kharar APMC,Tomato,Tomato,Non-Faq,2026-10-30,False,2000.0,4000.0,3000.0,,punjab_kharar_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Virudhunagar,Sathur (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3500.0,4000.0,3750.0,,tamil_nadu_sathur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Virudhunagar,Sivakasi (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3000.0,3500.0,3250.0,,tamil_nadu_sivakasi_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Chengalpet,Jameenrayapettai (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3500.0,4000.0,3750.0,,tamil_nadu_jameenrayapettai_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Vellore,Vellore Rm,Tomato,Deshi,Local,2026-10-30,False,2800.0,3000.0,2900.0,,tamil_nadu_vellore_rm,False,False,False,False,mandi_prices_2026-10-30.csv
+Maharashtra,Pune,APMC Pune,Tomato,Local,Local,2026-10-30,False,500.0,1200.0,850.0,,maharashtra_apmc_pune,False,False,False,False,mandi_prices_2026-10-30.csv
+Uttarakhand,Udhamsinghnagar,Kicchha APMC,Tomato,Hybrid,Non-Faq,2026-10-30,False,2300.0,2500.0,2400.0,,uttarakhand_kicchha_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Uttarakhand,Haridwar,Roorkee APMC,Tomato,Other,Medium,2026-10-30,False,1200.0,2200.0,1600.0,,uttarakhand_roorkee_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,The Nilgiris,Udhagamandalam (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3500.0,4000.0,3750.0,,tamil_nadu_udhagamandalam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Tiruvarur,Needamangalam (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3400.0,3400.0,3400.0,,tamil_nadu_needamangalam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thiruvallur,Tiruthani (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,4000.0,4000.0,4000.0,,tamil_nadu_tiruthani_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Madhya Pradesh,Harda,Sirali (F&V) APMC,Tomato,Tomato,Grade A,2026-10-30,False,1000.0,1000.0,1000.0,,madhya_pradesh_sirali_f_v_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Vellore,Perampet (Uzhavar Sandhai),Tomato,Deshi,Local,2026-10-30,False,2500.0,2500.0,2500.0,,tamil_nadu_perampet_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Chengalpet,Guduvancheri (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3000.0,3500.0,3250.0,,tamil_nadu_guduvancheri_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Uttar Pradesh,Mathura,Kosikalan APMC,Tomato,Deshi,Faq,2026-10-30,False,1900.0,2040.0,1970.0,,uttar_pradesh_kosikalan_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Haryana,Panipat,Panipat APMC,Tomato,Other,Local,2026-10-30,False,1000.0,2000.0,1500.0,,haryana_panipat_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Punjab,Ferozpur,Zira APMC,Tomato,Other,Local,2026-10-30,False,1700.0,1700.0,1700.0,,punjab_zira_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Nagaland,Wokha,Baghty APMC,Tomato,Tomato,Faq,2026-10-30,False,4400.0,5500.0,5000.0,,nagaland_baghty_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Andhra Pradesh,Annamayya,Mulakalacheruvu APMC,Tomato,Local,Faq,2026-10-30,False,1200.0,2600.0,2100.0,,andhra_pradesh_mulakalacheruvu_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Coimbatore,Vadavalli (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,3200.0,3600.0,3400.0,,tamil_nadu_vadavalli_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+West Bengal,Darjeeling,Darjeeling APMC,Tomato,Other,Faq,2026-10-30,False,2600.0,2800.0,2700.0,,west_bengal_darjeeling_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Erode,Gobichettipalayam (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3400.0,3600.0,3500.0,,tamil_nadu_gobichettipalayam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Pudukkottai,Ponnamaravathi (Uzhavar Sandhai),Tomato,Deshi,Local,2026-10-30,False,3500.0,4000.0,3750.0,,tamil_nadu_ponnamaravathi_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Karnataka,Belagavi,Belgaum APMC,Tomato,Tomato,Large,2026-10-30,False,300.0,400.0,350.0,,karnataka_belgaum_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Ramanathapuram,Ramanathapuram (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,4000.0,4500.0,4250.0,,tamil_nadu_ramanathapuram_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thiruvannamalai,Arani (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,2500.0,3000.0,2750.0,,tamil_nadu_arani_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Villupuram,Villupuram (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3500.0,3500.0,3500.0,,tamil_nadu_villupuram_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Odisha,Sundergarh,Panposh APMC,Tomato,Hybrid,Faq,2026-10-30,False,3000.0,4000.0,3500.0,,odisha_panposh_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Haryana,Mahendragarh-Narnaul,Narnaul APMC,Tomato,Tomato,Medium,2026-10-30,False,1500.0,3000.0,2500.0,,haryana_narnaul_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Odisha,Mayurbhanja,Betnoti APMC,Tomato,Tomato,Faq,2026-10-30,False,3000.0,3400.0,3200.0,,odisha_betnoti_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Kerala,Ernakulam,North Paravur Market,Tomato,Deshi,Faq,2026-10-30,False,3000.0,4000.0,3500.0,,kerala_north_paravur_market,False,False,False,False,mandi_prices_2026-10-30.csv
+Himachal Pradesh,Kangra,Smy Baijnath,Tomato,Hybrid,Grade A,2026-10-30,False,2800.0,3200.0,3000.0,,himachal_pradesh_smy_baijnath,False,False,False,False,mandi_prices_2026-10-30.csv
+Kerala,Kozhikode (Calicut),Quilandy Market,Tomato,Other,Faq,2026-10-30,False,3200.0,3300.0,3200.0,,kerala_quilandy_market,False,False,False,False,mandi_prices_2026-10-30.csv
+Punjab,Hoshiarpur,Garh Shankar (Mahalpur) APMC,Tomato,Tomato,Faq,2026-10-30,False,2400.0,2400.0,2400.0,,punjab_garh_shankar_mahalpur_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Erode,Sathiyamagalam (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,3000.0,3400.0,3200.0,,tamil_nadu_sathiyamagalam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Ariyalur,Jeyankondam (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3600.0,4000.0,3800.0,,tamil_nadu_jeyankondam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Madhya Pradesh,Shivpuri,Shivpuri (F&V) APMC,Tomato,Other,Grade B,2026-10-30,False,1000.0,1000.0,1000.0,,madhya_pradesh_shivpuri_f_v_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Gujarat,Rajkot,Rajkot (Veg.Sub Yard) APMC,Tomato,Tomato,Faq,2026-10-30,False,1075.0,1960.0,1515.0,,gujarat_rajkot_veg_sub_yard_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Telangana,Siddipet,Siddipet (Rythu Bazar),Tomato,Local,Grade A,2026-10-30,False,2500.0,3500.0,3000.0,,telangana_siddipet_rythu_bazar,False,False,False,False,mandi_prices_2026-10-30.csv
+Telangana,Ranga Reddy,"Vanasthalipuram,Rbz",Tomato,Other,Grade A,2026-10-30,False,2700.0,2700.0,2700.0,,telangana_vanasthalipuram_rbz,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Chengalpet,Thirukalukundram (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3000.0,3000.0,3000.0,,tamil_nadu_thirukalukundram_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Pudukkottai,Karambakkudi (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3500.0,4000.0,3750.0,,tamil_nadu_karambakkudi_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Maharashtra,Ahilyanagar,APMC Rahata,Tomato,Other,Local,2026-10-30,False,500.0,1000.0,750.0,,maharashtra_apmc_rahata,False,False,False,False,mandi_prices_2026-10-30.csv
+Himachal Pradesh,Chamba,Pmy Chamba,Tomato,Tomato,Medium,2026-10-30,False,2500.0,3000.0,2750.0,,himachal_pradesh_pmy_chamba,False,False,False,False,mandi_prices_2026-10-30.csv
+Uttarakhand,Dehradoon,Rishikesh APMC,Tomato,Other,Medium,2026-10-30,False,900.0,1100.0,1000.0,,uttarakhand_rishikesh_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Haryana,Sonipat,Gohana APMC,Tomato,Other,Medium,2026-10-30,False,2000.0,3500.0,3000.0,,haryana_gohana_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Odisha,Jharsuguda,Jharsuguda APMC,Tomato,Other,Grade A,2026-10-30,False,4000.0,4000.0,4000.0,,odisha_jharsuguda_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Haryana,Hissar,Hansi APMC,Tomato,Other,Faq,2026-10-30,False,2000.0,3000.0,2500.0,,haryana_hansi_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Madhya Pradesh,Mandsaur,Garoth (F&V) APMC,Tomato,Tomato,Local,2026-10-30,False,550.0,675.0,600.0,,madhya_pradesh_garoth_f_v_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Kerala,Ernakulam,Thrippunithura Market,Tomato,Tomato,Medium,2026-10-30,False,3800.0,4500.0,4000.0,,kerala_thrippunithura_market,False,False,False,False,mandi_prices_2026-10-30.csv
+Punjab,Bhatinda,Bhagta Bhai Ka APMC,Tomato,Other,Medium,2026-10-30,False,2800.0,2800.0,2800.0,,punjab_bhagta_bhai_ka_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Dharmapuri,Pennagaram (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,4000.0,4200.0,4100.0,,tamil_nadu_pennagaram_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Krishnagiri,Denkanikottai (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,2500.0,3000.0,2750.0,,tamil_nadu_denkanikottai_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Namakkal,Rasipuram (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,4800.0,5000.0,4900.0,,tamil_nadu_rasipuram_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Salem,Thammampatti (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,2500.0,3400.0,2950.0,,tamil_nadu_thammampatti_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Tirunelveli,Ngo Colony (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3500.0,4000.0,3750.0,,tamil_nadu_ngo_colony_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thiruppur,Kangayam (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,3000.0,3200.0,3100.0,,tamil_nadu_kangayam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Cuddalore,Vadalur (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,4000.0,4000.0,4000.0,,tamil_nadu_vadalur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Karur,Velayuthampalayam (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3200.0,4000.0,3600.0,,tamil_nadu_velayuthampalayam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Salem,Edapadi (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,3500.0,4000.0,3750.0,,tamil_nadu_edapadi_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Sivagangai,Tirupatthur (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3800.0,4200.0,4000.0,,tamil_nadu_tirupatthur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thanjavur,Pattukottai (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,4600.0,4600.0,4600.0,,tamil_nadu_pattukottai_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thiruchirappalli,Lalgudi (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,3400.0,3400.0,3400.0,,tamil_nadu_lalgudi_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Virudhunagar,Virudhunagar (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3000.0,3500.0,3250.0,,tamil_nadu_virudhunagar_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Gujarat,Dahod,Dahod (Veg. Market) APMC,Tomato,Tomato,Local,2026-10-30,False,500.0,1800.0,1300.0,,gujarat_dahod_veg_market_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Andhra Pradesh,Chittor,Kuppam APMC,Tomato,Tomato,Grade C,2026-10-30,False,900.0,1212.0,1212.0,,andhra_pradesh_kuppam_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Jammu And Kashmir,Udhampur,Fruit And Vegetable Market Udhampur,Tomato,Other,Grade B,2026-10-30,False,2200.0,2200.0,2200.0,,jammu_and_kashmir_fruit_and_vegetable_market_udhampur,False,False,False,False,mandi_prices_2026-10-30.csv
+Assam,Darrang,Balugaon APMC,Tomato,Tomato,Local,2026-10-30,False,1600.0,2000.0,1800.0,,assam_balugaon_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Karnataka,Chamarajanagar,Gundlupet APMC,Tomato,Tomato,Local,2026-10-30,False,2600.0,2800.0,2700.0,,karnataka_gundlupet_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Krishnagiri,Krishnagiri (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,1800.0,2200.0,2000.0,,tamil_nadu_krishnagiri_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Andhra Pradesh,Annamayya,Guramkonda Sub-Yard Of Amc Valmikipuram,Tomato,Hybrid,Faq,2026-10-30,False,1900.0,3100.0,2300.0,,andhra_pradesh_guramkonda_sub_yard_of_amc_valmikipuram,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thenkasi,Tenkasi (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,2500.0,2500.0,2500.0,,tamil_nadu_tenkasi_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Theni,Bodinayakanur (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3800.0,3800.0,3800.0,,tamil_nadu_bodinayakanur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Uttarakhand,Udhamsinghnagar,Rudrapur APMC,Tomato,Tomato,Medium,2026-10-30,False,1000.0,1500.0,1200.0,,uttarakhand_rudrapur_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Villupuram,Gingee (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3000.0,3000.0,3000.0,,tamil_nadu_gingee_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Karnataka,Bengaluru South,Ramanagara APMC,Tomato,Tomato,Local,2026-10-30,False,2500.0,3500.0,3000.0,,karnataka_ramanagara_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thiruppur,Palladam (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,3500.0,4000.0,3750.0,,tamil_nadu_palladam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Andhra Pradesh,Annamayya,Madanapalli APMC,Tomato,Local,Faq,2026-10-30,False,2500.0,3300.0,3100.0,,andhra_pradesh_madanapalli_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tripura,North Tripura,Dasda APMC,Tomato,Hybrid,Faq,2026-10-30,False,3500.0,3700.0,3600.0,,tripura_dasda_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Himachal Pradesh,Kangra,Smy Nagrota Bagwan,Tomato,Tomato,Faq,2026-10-30,False,1800.0,2000.0,1900.0,,himachal_pradesh_smy_nagrota_bagwan,False,False,False,False,mandi_prices_2026-10-30.csv
+Odisha,Kalahandi,Junagarh APMC,Tomato,Other,Grade B,2026-10-30,False,2800.0,3200.0,3000.0,,odisha_junagarh_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Pudukkottai,Alangudi (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3500.0,4000.0,3750.0,,tamil_nadu_alangudi_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Tiruvarur,Mannargudi Ii (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3600.0,3600.0,3600.0,,tamil_nadu_mannargudi_ii_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Himachal Pradesh,Solan,Pmy Kather Solan,Tomato,Other,Medium,2026-10-30,False,400.0,2700.0,2100.0,,himachal_pradesh_pmy_kather_solan,False,False,False,False,mandi_prices_2026-10-30.csv
+West Bengal,Birbhum,Birbhum APMC,Tomato,Hybrid,Faq,2026-10-30,False,4900.0,5000.0,4960.0,,west_bengal_birbhum_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Ariyalur,Ariyalur (Uzhavar Sandhai),Tomato,Deshi,Local,2026-10-30,False,3500.0,4000.0,3750.0,,tamil_nadu_ariyalur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Madhya Pradesh,Burhanpur,Burhanpur (F&V) APMC,Tomato,Other,Local,2026-10-30,False,1000.0,2000.0,1600.0,,madhya_pradesh_burhanpur_f_v_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Uttarakhand,Udhamsinghnagar,Sitarganj APMC,Tomato,Other,Grade B,2026-10-30,False,1200.0,2000.0,1500.0,,uttarakhand_sitarganj_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Odisha,Gajapati,Parlakhemundi APMC,Tomato,Local,Grade Range-1,2026-10-30,False,800.0,1000.0,900.0,,odisha_parlakhemundi_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Telangana,Hyderabad,Rythu Bazar Mehdipatnam,Tomato,Deshi,Grade A,2026-10-30,False,2700.0,2700.0,2700.0,,telangana_rythu_bazar_mehdipatnam,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Namakkal,Thiruchengodu Rm,Tomato,Deshi,Local,2026-10-30,False,4000.0,4400.0,4200.0,,tamil_nadu_thiruchengodu_rm,False,False,False,False,mandi_prices_2026-10-30.csv
+Andhra Pradesh,Chittor,V. Kota Sub-Yard Of Amc Palamaneru,Tomato,Other,Faq,2026-10-30,False,2100.0,2700.0,2400.0,,andhra_pradesh_v_kota_sub_yard_of_amc_palamaneru,False,False,False,False,mandi_prices_2026-10-30.csv
+Telangana,Adilabad,Adilabad (Rythu Bazar),Tomato,Local,Local,2026-10-30,False,4000.0,4200.0,4000.0,,telangana_adilabad_rythu_bazar,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thoothukudi,Tuticorin (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,3500.0,4000.0,3750.0,,tamil_nadu_tuticorin_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Telangana,Hyderabad,Mahboob Manison APMC,Tomato,Tomato,Local,2026-10-30,False,1600.0,2400.0,2000.0,,telangana_mahboob_manison_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Bihar,Kaimur/Bhabhua,Mohana APMC,Tomato,Hybrid,Grade A,2026-10-30,False,2000.0,2200.0,2120.0,,bihar_mohana_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Himachal Pradesh,Kangra,Smy Palampur,Tomato,Tomato,Faq,2026-10-30,False,1900.0,2000.0,1950.0,,himachal_pradesh_smy_palampur,False,False,False,False,mandi_prices_2026-10-30.csv
+Haryana,Kurukshetra,Thanesar APMC,Tomato,Tomato,Local,2026-10-30,False,1000.0,3000.0,2000.0,,haryana_thanesar_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Punjab,Tarntaran,Patti APMC,Tomato,Other,Local,2026-10-30,False,0.01,0.01,0.01,,punjab_patti_apmc,False,False,True,False,mandi_prices_2026-10-30.csv
+Punjab,Amritsar,Rayya APMC,Tomato,Other,Faq,2026-10-30,False,680.0,680.0,680.0,,punjab_rayya_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Haryana,Mewat,Ferozpurzirkha (Nagina) APMC,Tomato,Other,Local,2026-10-30,False,1600.0,2000.0,1800.0,,haryana_ferozpurzirkha_nagina_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thiruchirappalli,Thuraiyur Rm,Tomato,Other,Local,2026-10-30,False,2800.0,3200.0,3000.0,,tamil_nadu_thuraiyur_rm,False,False,False,False,mandi_prices_2026-10-30.csv
+Kerala,Kottayam,Kuruppanthura Market,Tomato,Other,Faq,2026-10-30,False,5000.0,5200.0,5200.0,,kerala_kuruppanthura_market,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Dindigul,Palani (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,2000.0,3500.0,2750.0,,tamil_nadu_palani_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Kancheepuram,Padappai (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,2500.0,3600.0,3050.0,,tamil_nadu_padappai_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Madurai,Anaiyur (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3400.0,3800.0,3600.0,,tamil_nadu_anaiyur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Madurai,Usilampatti (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3400.0,3800.0,3600.0,,tamil_nadu_usilampatti_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thanjavur,Tirukattupalli (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3000.0,3000.0,3000.0,,tamil_nadu_tirukattupalli_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Madurai,Anna Nagar (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3000.0,3200.0,3100.0,,tamil_nadu_anna_nagar_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Theni,Theni (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3000.0,3600.0,3300.0,,tamil_nadu_theni_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Tirunelveli,Kandiyaperi (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3800.0,4000.0,3900.0,,tamil_nadu_kandiyaperi_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thiruvannamalai,Tamarainagar (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,2500.0,3000.0,2750.0,,tamil_nadu_tamarainagar_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thiruvannamalai,Vandavasi (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,2500.0,3000.0,2750.0,,tamil_nadu_vandavasi_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thanjavur,Peravurani (Uzhavar Sandhai),Tomato,Deshi,Local,2026-10-30,False,4400.0,4400.0,4400.0,,tamil_nadu_peravurani_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Karur,Pallapatti (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3500.0,4000.0,3750.0,,tamil_nadu_pallapatti_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Theni,Devaram (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3600.0,3600.0,3600.0,,tamil_nadu_devaram_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Sivagangai,Devakottai (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3800.0,4200.0,4000.0,,tamil_nadu_devakottai_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Salem,Jalagandapuram (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3000.0,3400.0,3200.0,,tamil_nadu_jalagandapuram_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Sivagangai,Singampunari (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3600.0,4000.0,3800.0,,tamil_nadu_singampunari_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thanjavur,Thanjavur (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3400.0,3400.0,3400.0,,tamil_nadu_thanjavur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thiruchirappalli,Musiri (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,3200.0,3200.0,3200.0,,tamil_nadu_musiri_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thiruchirappalli,Thiruverumbur (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3000.0,3200.0,3100.0,,tamil_nadu_thiruverumbur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Virudhunagar,Rajapalayam (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3000.0,3500.0,3250.0,,tamil_nadu_rajapalayam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Chengalpet,Nanganallur (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3000.0,3500.0,3250.0,,tamil_nadu_nanganallur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Maharashtra,Ahilyanagar,APMC Shrirampur,Tomato,Other,Local,2026-10-30,False,1000.0,1500.0,1250.0,,maharashtra_apmc_shrirampur,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Villupuram,Tindivanam Rm,Tomato,Deshi,Local,2026-10-30,False,2800.0,2800.0,2800.0,,tamil_nadu_tindivanam_rm,False,False,False,False,mandi_prices_2026-10-30.csv
+Gujarat,Rajkot,Gondal (Veg.Market Gondal) APMC,Tomato,Tomato,Local,2026-10-30,False,1000.0,2000.0,1500.0,,gujarat_gondal_veg_market_gondal_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Haryana,Fatehabad,Fatehabad APMC,Tomato,Other,Local,2026-10-30,False,2000.0,2000.0,2000.0,,haryana_fatehabad_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Karnataka,Shivamogga,Shimoga APMC,Tomato,Tomato,Local,2026-10-30,False,800.0,2400.0,1600.0,,karnataka_shimoga_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Maharashtra,Pune,Pune (Moshi),Tomato,Local,Local,2026-10-30,False,500.0,700.0,600.0,,maharashtra_pune_moshi,False,False,False,False,mandi_prices_2026-10-30.csv
+Assam,Darrang,Besimari APMC,Tomato,Tomato,Local,2026-10-30,False,1600.0,2000.0,1800.0,,assam_besimari_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Maharashtra,Nagpur,APMC Kalmeshwar,Tomato,Other,Local,2026-10-30,False,1510.0,2000.0,1820.0,,maharashtra_apmc_kalmeshwar,False,False,False,False,mandi_prices_2026-10-30.csv
+Maharashtra,Satara,APMC Vai,Tomato,Local,Local,2026-10-30,False,900.0,1500.0,1200.0,,maharashtra_apmc_vai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Pudukkottai,Pudukottai (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3500.0,4000.0,3750.0,,tamil_nadu_pudukottai_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thanjavur,Kumbakonam (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3800.0,4200.0,4000.0,,tamil_nadu_kumbakonam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Tiruvarur,Tiruvarur (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3600.0,3600.0,3600.0,,tamil_nadu_tiruvarur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+West Bengal,Birbhum,Sainthia APMC,Tomato,Hybrid,Faq,2026-10-30,False,4900.0,5000.0,4960.0,,west_bengal_sainthia_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Virudhunagar,Kariyapatti (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3000.0,3500.0,3250.0,,tamil_nadu_kariyapatti_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Telangana,Khammam,"Sattupalli (Ramalayam),Rbz",Tomato,Tomato,Faq,2026-10-30,False,3000.0,4000.0,3600.0,,telangana_sattupalli_ramalayam_rbz,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Madurai,Thirumangalam (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3400.0,3800.0,3600.0,,tamil_nadu_thirumangalam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Karur,Gandhigramam (Uzhavar Sandhai),Tomato,Other,Local,2026-10-30,False,3500.0,4000.0,3750.0,,tamil_nadu_gandhigramam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Salem,Vazhapadi (Uzhavar Sandhai),Tomato,Deshi,Local,2026-10-30,False,3000.0,3600.0,3300.0,,tamil_nadu_vazhapadi_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Andhra Pradesh,Annamayya,B.Kothakota H/Q Angallu,Tomato,Local,Faq,2026-10-30,False,2000.0,2800.0,2400.0,,andhra_pradesh_b_kothakota_h_q_angallu,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Nagapattinam,Vedaranyam (Uzhavar Sandhai),Tomato,Deshi,Local,2026-10-30,False,5000.0,5000.0,5000.0,,tamil_nadu_vedaranyam_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Punjab,Jalandhar,Jalandhar City (Jalandhar) APMC,Tomato,Tomato,Faq,2026-10-30,False,500.0,1800.0,1100.0,,punjab_jalandhar_city_jalandhar_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+West Bengal,Darjeeling,Siliguri APMC,Tomato,Tomato,Faq,2026-10-30,False,1600.0,1800.0,1700.0,,west_bengal_siliguri_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Erode,Sampath Nagar (Uzhavar Sandhai ),Tomato,Other,Local,2026-10-30,False,3000.0,3400.0,3200.0,,tamil_nadu_sampath_nagar_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Telangana,Ranga Reddy,Chevella APMC,Tomato,Local,Local,2026-10-30,False,1200.0,1200.0,1200.0,,telangana_chevella_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Mayiladuthurai,Mayiladuthurai (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3600.0,4000.0,3800.0,,tamil_nadu_mayiladuthurai_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Ramanathapuram,Paramakudi (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,4000.0,4500.0,4250.0,,tamil_nadu_paramakudi_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Thiruvannamalai,Polur (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,2500.0,3000.0,2750.0,,tamil_nadu_polur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Andhra Pradesh,Chittor,Palamaner APMC,Tomato,Tomato,Faq,2026-10-30,False,2200.0,2800.0,2500.0,,andhra_pradesh_palamaner_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Andaman And Nicobar,North And Middle Andaman,Mayabander Vegetable Market,Tomato,Tomato,Faq,2026-10-30,False,6000.0,8000.0,7000.0,,andaman_and_nicobar_mayabander_vegetable_market,False,False,False,False,mandi_prices_2026-10-30.csv
+Karnataka,Chikkaballapur,Bagepalli APMC,Tomato,Tomato,Small,2026-10-30,False,230.0,2300.0,1720.0,,karnataka_bagepalli_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Punjab,Hoshiarpur,Garh Shankar APMC,Tomato,Local,Faq,2026-10-30,False,2300.0,2300.0,2300.0,,punjab_garh_shankar_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Punjab,Ludhiana,Doraha APMC,Tomato,Deshi,Local,2026-10-30,False,1500.0,2000.0,1800.0,,punjab_doraha_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Odisha,Sambalpur,Rairakhol APMC,Tomato,Hybrid,Grade B,2026-10-30,False,2000.0,2500.0,2300.0,,odisha_rairakhol_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Coimbatore,Sundarapuram (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,3400.0,3800.0,3600.0,,tamil_nadu_sundarapuram_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Haryana,Rohtak,Meham,Tomato,Tomato,Medium,2026-10-30,False,2200.0,2200.0,2200.0,,haryana_meham,False,False,False,False,mandi_prices_2026-10-30.csv
+Odisha,Kalahandi,Kalahandi (Dharamagarh) APMC,Tomato,Other,Grade B,2026-10-30,False,2700.0,3100.0,2900.0,,odisha_kalahandi_dharamagarh_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Telangana,Nalgonda,Miryalguda (Rythu Bazar),Tomato,Deshi,Grade A,2026-10-30,False,3500.0,3500.0,3500.0,,telangana_miryalguda_rythu_bazar,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Coimbatore,Rspuram (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,3300.0,3500.0,3400.0,,tamil_nadu_rspuram_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Coimbatore,Pollachi (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3500.0,4000.0,3750.0,,tamil_nadu_pollachi_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Cuddalore,Chidambaram (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,4000.0,4000.0,4000.0,,tamil_nadu_chidambaram_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Cuddalore,Cuddalore (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3800.0,3800.0,3800.0,,tamil_nadu_cuddalore_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Rajasthan,Jaipur,Bassi APMC,Tomato,Other,Local,2026-10-30,False,2800.0,3200.0,3000.0,,rajasthan_bassi_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,Dharmapuri,Harur (Uzhavar Sandhai ),Tomato,Deshi,Local,2026-10-30,False,3000.0,3500.0,3250.0,,tamil_nadu_harur_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Tamil Nadu,The Nilgiris,Coonoor (Uzhavar Sandhai ),Tomato,Local,Local,2026-10-30,False,4000.0,4500.0,4250.0,,tamil_nadu_coonoor_uzhavar_sandhai,False,False,False,False,mandi_prices_2026-10-30.csv
+Himachal Pradesh,Solan,Smy Dharampur,Tomato,Local,Local,2026-10-30,False,700.0,1400.0,1200.0,,himachal_pradesh_smy_dharampur,False,False,False,False,mandi_prices_2026-10-30.csv
+Uttarakhand,Dehradoon,Vikasnagar APMC,Tomato,Other,Faq,2026-10-30,False,1000.0,1500.0,1500.0,,uttarakhand_vikasnagar_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Uttarakhand,Haridwar,Manglaur APMC,Tomato,Other,Local,2026-10-30,False,1000.0,1500.0,1300.0,,uttarakhand_manglaur_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
+Telangana,Sangareddy,Sangareddy APMC,Tomato,Other,Grade B,2026-10-30,False,2700.0,2700.0,2700.0,,telangana_sangareddy_apmc,False,False,False,False,mandi_prices_2026-10-30.csv
