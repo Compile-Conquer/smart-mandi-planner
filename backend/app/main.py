@@ -2,6 +2,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from .api.endpoints import router as api_router
+from .api.storage_endpoints import router as storage_router
 from .database.connection import engine, Base
 from .models import db_models
 
@@ -14,7 +15,7 @@ except Exception as e:
 app = FastAPI(
     title="MandiMitra AI API",
     description="Agricultural Market Intelligence and Decision-Support Platform - 'Don't just sell your harvest. Sell it smarter.'",
-    version="1.0.0"
+    version="2.0.0"
 )
 
 # Enable CORS for Vite frontend and deployment
@@ -26,8 +27,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Register API Router
+# Register API Routers
 app.include_router(api_router)
+app.include_router(storage_router)
 
 @app.get("/")
 def read_root():

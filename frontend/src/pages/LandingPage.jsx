@@ -13,11 +13,9 @@ import {
   BarChart3,
   Scale
 } from 'lucide-react';
-import { useLanguage } from '../context/LanguageContext';
 import { useFarmerState } from '../context/FarmerStateContext';
 
 export default function LandingPage() {
-  const { t } = useLanguage();
   const { crop, quantity, selectedLocation } = useFarmerState();
 
   const features = [

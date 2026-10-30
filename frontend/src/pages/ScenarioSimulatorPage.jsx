@@ -8,22 +8,32 @@ import {
   RefreshCw, 
   ArrowRight,
   AlertTriangle,
-  CheckCircle2
+  CheckCircle2,
+  GitCompare,
+  DollarSign,
+  Package
 } from 'lucide-react';
 import { useFarmerState } from '../context/FarmerStateContext';
 import { api } from '../services/api';
 import StatCard from '../components/StatCard';
 
 export default function ScenarioSimulatorPage() {
-  const { crop, quantity: defaultQty, harvestDate, selectedLocation } = useFarmerState();
+  const { crop, quantity: defaultQty, harvestDate, selectedLocation, recommendations } = useFarmerState();
 
   const [quantity, setQuantity] = useState(defaultQty || 5.0);
+  const [targetMandiId, setTargetMandiId] = useState('');
   const [priceShockPct, setPriceShockPct] = useState(0.0); // e.g. -15%
   const [transportMultiplier, setTransportMultiplier] = useState(1.0); // e.g. 1.25x
   const [spoilageMultiplier, setSpoilageMultiplier] = useState(1.0); // e.g. 1.5x
 
   const [simulationData, setSimulationData] = useState(null);
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    if (recommendations.length > 0 && !targetMandiId) {
+      setTargetMandiId(recommendations[0].mandi_id);
+    }
+  }, [recommendations]);
 
   const runSimulation = () => {
     setLoading(true);
@@ -33,6 +43,7 @@ export default function ScenarioSimulatorPage() {
       harvest_date: harvestDate || '2026-10-30',
       farmer_lat: selectedLocation.lat,
       farmer_lon: selectedLocation.lon,
+      target_mandi_id: targetMandiId || undefined,
       custom_transport_cost_per_km: 35.0,
       custom_handling_cost_per_q: 15.0,
       custom_storage_cost_per_day_per_q: 3.5,
@@ -45,6 +56,7 @@ export default function ScenarioSimulatorPage() {
       modified_transport_cost_multiplier: Number(transportMultiplier),
       expected_price_shock_pct: Number(priceShockPct),
       spoilage_rate_modifier_pct: Number(spoilageMultiplier),
+      target_mandi_id: targetMandiId || undefined
     };
 
     api.simulateScenario(payload)
@@ -55,49 +67,79 @@ export default function ScenarioSimulatorPage() {
 
   useEffect(() => {
     runSimulation();
-  }, [crop, quantity, priceShockPct, transportMultiplier, spoilageMultiplier, selectedLocation]);
+  }, [crop, quantity, targetMandiId, priceShockPct, transportMultiplier, spoilageMultiplier, selectedLocation]);
 
   const base = simulationData?.base_scenario;
   const sim = simulationData?.simulated_scenario;
   const netDiff = simulationData?.net_profit_difference_rupees || 0;
+  const expenseDiff = simulationData?.expense_differences || {};
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
       {/* Header */}
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-gray-200">
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-[#164B35] bg-emerald-100 px-2.5 py-0.5 rounded-full">
-            What-If Risk Stress Testing
-          </span>
+          <div className="flex items-center space-x-2">
+            <span className="text-xs font-bold uppercase tracking-wider text-[#164B35] bg-emerald-100 px-2.5 py-0.5 rounded-full">
+              What-If Risk Stress Testing
+            </span>
+            <span className="text-xs text-gray-500 font-medium">
+              Strict Baseline vs Scenario Comparison
+            </span>
+          </div>
           <h1 className="text-2xl sm:text-3xl font-black text-gray-900 mt-1">
-            Market Volatility Scenario Simulator
+            Market Volatility & Cost Scenario Simulator
           </h1>
           <p className="text-xs sm:text-sm text-gray-600">
             Stress-test your selling plan against sudden market crashes, diesel price hikes, and heatwave spoilage.
           </p>
         </div>
 
-        <button
-          onClick={runSimulation}
-          className="flex items-center space-x-1.5 bg-[#164B35] text-white hover:bg-[#0e3626] px-4 py-2 rounded-xl text-xs font-bold shadow-md transition-all self-start md:self-auto"
-        >
-          <RefreshCw className={`w-3.5 h-3.5 ${loading ? 'animate-spin' : ''}`} />
-          <span>Reset Simulation</span>
-        </button>
+        {/* Target Mandi Picker & Reset Button */}
+        <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-1.5 text-xs bg-white px-3 py-1.5 rounded-xl border border-gray-300 shadow-sm">
+            <span className="text-gray-500 font-medium">Mandi:</span>
+            <select
+              value={targetMandiId}
+              onChange={(e) => setTargetMandiId(e.target.value)}
+              className="font-bold text-gray-900 outline-none bg-transparent cursor-pointer"
+            >
+              <option value="">Optimal Recommended</option>
+              {recommendations.map((m) => (
+                <option key={m.mandi_id} value={m.mandi_id}>
+                  {m.mandi_name} ({m.district})
+                </option>
+              ))}
+            </select>
+          </div>
+
+          <button
+            onClick={() => {
+              setPriceShockPct(0);
+              setTransportMultiplier(1.0);
+              setSpoilageMultiplier(1.0);
+              runSimulation();
+            }}
+            className="flex items-center space-x-1 bg-white border border-gray-300 hover:border-[#164B35] text-gray-700 hover:text-[#164B35] px-3 py-1.5 rounded-xl text-xs font-bold shadow-sm"
+          >
+            <RefreshCw className={`w-3.5 h-3.5 ${loading ? 'animate-spin' : ''}`} />
+            <span>Reset</span>
+          </button>
+        </div>
       </div>
 
       {/* Simulator Sliders Control Panel */}
-      <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-6 space-y-6">
+      <div className="bg-white rounded-3xl border border-gray-200 shadow-sm p-6 sm:p-8 space-y-6">
         <h3 className="text-sm font-bold uppercase tracking-wider text-gray-500">
           Simulated Market Variables
         </h3>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* Harvest Volume */}
-          <div className="space-y-1.5">
+          <div className="space-y-1.5 bg-gray-50 p-4 rounded-2xl border border-gray-100">
             <label className="text-xs font-bold text-gray-700 flex justify-between">
               <span>Harvest Volume:</span>
-              <span className="text-[#164B35]">{quantity} Tonnes</span>
+              <span className="text-[#164B35] font-black">{quantity} Tonnes</span>
             </label>
             <input
               type="range"
@@ -112,10 +154,10 @@ export default function ScenarioSimulatorPage() {
           </div>
 
           {/* Expected Price Shock */}
-          <div className="space-y-1.5">
+          <div className="space-y-1.5 bg-gray-50 p-4 rounded-2xl border border-gray-100">
             <label className="text-xs font-bold text-gray-700 flex justify-between">
               <span>Price Shock (%):</span>
-              <span className={`font-bold ${priceShockPct < 0 ? 'text-red-600' : priceShockPct > 0 ? 'text-emerald-600' : 'text-gray-700'}`}>
+              <span className={`font-black ${priceShockPct < 0 ? 'text-red-600' : priceShockPct > 0 ? 'text-emerald-600' : 'text-gray-700'}`}>
                 {priceShockPct > 0 ? `+${priceShockPct}%` : `${priceShockPct}%`}
               </span>
             </label>
@@ -129,16 +171,16 @@ export default function ScenarioSimulatorPage() {
               className="w-full accent-amber-600 cursor-pointer"
             />
             <div className="flex justify-between text-[10px] text-gray-400">
-              <span>-30% (Severe Crash)</span>
+              <span>-30% (Crash)</span>
               <span>+30% (Surge)</span>
             </div>
           </div>
 
           {/* Transport Cost Multiplier */}
-          <div className="space-y-1.5">
+          <div className="space-y-1.5 bg-gray-50 p-4 rounded-2xl border border-gray-100">
             <label className="text-xs font-bold text-gray-700 flex justify-between">
               <span>Transport Cost Shift:</span>
-              <span className="text-blue-800">{transportMultiplier}x</span>
+              <span className="text-blue-800 font-black">{transportMultiplier}x</span>
             </label>
             <input
               type="range"
@@ -151,15 +193,15 @@ export default function ScenarioSimulatorPage() {
             />
             <div className="flex justify-between text-[10px] text-gray-400">
               <span>0.8x (Discounts)</span>
-              <span>2.0x (Diesel Spike / Detour)</span>
+              <span>2.0x (Diesel Spike)</span>
             </div>
           </div>
 
           {/* Spoilage Rate Multiplier */}
-          <div className="space-y-1.5">
+          <div className="space-y-1.5 bg-gray-50 p-4 rounded-2xl border border-gray-100">
             <label className="text-xs font-bold text-gray-700 flex justify-between">
               <span>Spoilage Modifier:</span>
-              <span className="text-orange-800">{spoilageMultiplier}x</span>
+              <span className="text-orange-800 font-black">{spoilageMultiplier}x</span>
             </label>
             <input
               type="range"
@@ -172,7 +214,7 @@ export default function ScenarioSimulatorPage() {
             />
             <div className="flex justify-between text-[10px] text-gray-400">
               <span>1.0x (Normal)</span>
-              <span>2.5x (Heatwave / Delay)</span>
+              <span>2.5x (Heatwave)</span>
             </div>
           </div>
         </div>
@@ -181,7 +223,7 @@ export default function ScenarioSimulatorPage() {
       {/* Side-by-Side Comparison: Base vs Simulated */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
         {/* Base Scenario Card */}
-        <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-6 space-y-4">
+        <div className="bg-white rounded-3xl border border-gray-200 shadow-sm p-6 space-y-4">
           <div className="flex items-center justify-between pb-3 border-b border-gray-100">
             <div>
               <span className="text-[10px] font-bold uppercase tracking-wider text-gray-500">
@@ -220,7 +262,7 @@ export default function ScenarioSimulatorPage() {
         </div>
 
         {/* Simulated Scenario Card */}
-        <div className={`rounded-2xl border shadow-md p-6 space-y-4 ${
+        <div className={`rounded-3xl border shadow-md p-6 space-y-4 ${
           netDiff < 0 ? 'bg-red-50/40 border-red-300' : 'bg-emerald-50/40 border-emerald-300'
         }`}>
           <div className="flex items-center justify-between pb-3 border-b border-gray-200">
@@ -263,8 +305,56 @@ export default function ScenarioSimulatorPage() {
         </div>
       </div>
 
+      {/* Cost Breakdown Diffs Card */}
+      {expenseDiff && (
+        <div className="bg-white rounded-3xl p-6 border border-gray-200 shadow-sm space-y-4">
+          <div className="flex items-center space-x-2 pb-2 border-b border-gray-100">
+            <GitCompare className="w-5 h-5 text-[#164B35]" />
+            <h3 className="font-black text-gray-900 text-sm">
+              Expense Itemization & Impact Differences (Simulated vs Baseline)
+            </h3>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-xs">
+            <div className="p-3.5 rounded-2xl bg-gray-50 border border-gray-100 space-y-1">
+              <span className="text-gray-500 font-semibold block">Transport Cost Diff:</span>
+              <span className={`font-black text-sm ${
+                (expenseDiff.transportation_diff || 0) > 0 ? 'text-red-600' : 'text-emerald-700'
+              }`}>
+                {(expenseDiff.transportation_diff || 0) > 0 ? '+' : ''}₹{Math.round(expenseDiff.transportation_diff || 0).toLocaleString()}
+              </span>
+            </div>
+
+            <div className="p-3.5 rounded-2xl bg-gray-50 border border-gray-100 space-y-1">
+              <span className="text-gray-500 font-semibold block">Spoilage Loss Diff:</span>
+              <span className={`font-black text-sm ${
+                (expenseDiff.spoilage_diff || 0) > 0 ? 'text-red-600' : 'text-emerald-700'
+              }`}>
+                {(expenseDiff.spoilage_diff || 0) > 0 ? '+' : ''}₹{Math.round(expenseDiff.spoilage_diff || 0).toLocaleString()}
+              </span>
+            </div>
+
+            <div className="p-3.5 rounded-2xl bg-gray-50 border border-gray-100 space-y-1">
+              <span className="text-gray-500 font-semibold block">Storage Cost Diff:</span>
+              <span className="font-black text-sm text-gray-700">
+                ₹{Math.round(expenseDiff.storage_diff || 0).toLocaleString()}
+              </span>
+            </div>
+
+            <div className="p-3.5 rounded-2xl bg-gray-50 border border-gray-100 space-y-1">
+              <span className="text-gray-500 font-semibold block">Net Realization Shift:</span>
+              <span className={`font-black text-sm ${
+                netDiff < 0 ? 'text-red-600' : 'text-emerald-700'
+              }`}>
+                {netDiff >= 0 ? '+' : ''}₹{Math.round(netDiff).toLocaleString()}
+              </span>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Net Impact Statement & Advice */}
-      <div className={`p-6 rounded-2xl border flex flex-col md:flex-row items-start md:items-center justify-between gap-4 ${
+      <div className={`p-6 rounded-3xl border shadow-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-4 ${
         netDiff < 0 ? 'bg-red-50 border-red-200 text-red-950' : 'bg-emerald-50 border-emerald-200 text-emerald-950'
       }`}>
         <div className="flex items-center space-x-3">
@@ -282,7 +372,7 @@ export default function ScenarioSimulatorPage() {
         </div>
 
         <div className="text-right whitespace-nowrap pl-4 border-l border-gray-200">
-          <span className="text-xs text-gray-500 block">Net Realization Shift</span>
+          <span className="text-xs text-gray-500 block">Net Profit Shift</span>
           <span className={`text-2xl font-black ${netDiff < 0 ? 'text-red-600' : 'text-emerald-700'}`}>
             {netDiff >= 0 ? '+' : ''}₹{netDiff.toLocaleString()}
           </span>

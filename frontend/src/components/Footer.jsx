@@ -54,7 +54,7 @@ export default function Footer() {
               Actual prices at APMC physical auctions are determined by real-time bidding, lot grading, and buyer volume.
             </p>
             <p className="text-xs text-emerald-400 mt-2 font-mono">
-              v1.0.0 • Deployment Ready
+              v2.0.0 • Digital Twin Enabled
             </p>
           </div>
         </div>
@@ -64,7 +64,7 @@ export default function Footer() {
           <div className="flex space-x-4 mt-2 sm:mt-0">
             <span>Karnataka APMC Network</span>
             <span>•</span>
-            <span>Bilingual (English / ಕನ್ನಡ)</span>
+            <span>English • Multi-Mandi & Cold Storage Intelligence</span>
           </div>
         </div>
       </div>

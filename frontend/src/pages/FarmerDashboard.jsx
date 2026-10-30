@@ -17,7 +17,6 @@ import {
   GitCompare,
   Network
 } from 'lucide-react';
-import { useLanguage } from '../context/LanguageContext';
 import { useFarmerState } from '../context/FarmerStateContext';
 import { api } from '../services/api';
 import StatCard from '../components/StatCard';
@@ -25,7 +24,6 @@ import CostBreakdownCard from '../components/CostBreakdownCard';
 import PriceChart from '../components/PriceChart';
 
 export default function FarmerDashboard() {
-  const { t } = useLanguage();
   const { 
     crop, 
     quantity, 

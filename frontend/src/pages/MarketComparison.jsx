@@ -10,11 +10,9 @@ import {
   TrendingUp,
   Download
 } from 'lucide-react';
-import { useLanguage } from '../context/LanguageContext';
 import { useFarmerState } from '../context/FarmerStateContext';
 
 export default function MarketComparison() {
-  const { t } = useLanguage();
   const { crop, quantity, selectedLocation, recommendations, loading } = useFarmerState();
   const [sortBy, setSortBy] = useState('net_realization'); // 'net_realization', 'distance_km', 'forecasted_price_per_q'
   const [filterState, setFilterState] = useState('ALL');
