@@ -335,7 +335,7 @@ export function CompareWorkspace({
                     </small>
                   </span>
                   <StatusBadge
-                    days={item.latest_age_days}
+                    reportDate={item.last_date}
                     threshold={manifest.meta.freshnessThresholdDays}
                     locale={locale}
                     copy={common}
@@ -609,7 +609,7 @@ export function CompareWorkspace({
                         </td>
                         <td>
                           <StatusBadge
-                            days={item.latest_age_days}
+                            reportDate={item.last_date}
                             threshold={manifest.meta.freshnessThresholdDays}
                             locale={locale}
                             copy={common}

@@ -109,7 +109,7 @@ export async function MarketDetailPage({
           </div>
           <div>
             <StatusBadge
-              days={market.latest_age_days}
+              reportDate={market.last_date}
               threshold={manifest.meta.freshnessThresholdDays}
               locale={locale}
               copy={common}

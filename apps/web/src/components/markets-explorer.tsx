@@ -24,9 +24,11 @@ import {
   Sparkline,
   StatusBadge,
 } from "@/components/data-ui";
+import { useCurrentUtcDate } from "@/components/freshness-badges";
 import { localizePath } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/types";
 import { formatDate, formatNumber } from "@/lib/format";
+import { reportAgeDays } from "@/lib/freshness";
 import type { Locale, Manifest, MarketSummary } from "@/lib/types";
 import { freshnessStatus } from "@/lib/types";
 
@@ -85,6 +87,7 @@ export function MarketsExplorer({
     (searchParams.get("selected") ?? "").split(",").filter(Boolean),
   );
   const [copied, setCopied] = useState(false);
+  const asOfDate = useCurrentUtcDate();
 
   useEffect(() => {
     if (searchParams.get("focus") === "search") searchRef.current?.focus();
@@ -134,12 +137,15 @@ export function MarketsExplorer({
       if (filters.commodity && item.commodity !== filters.commodity) return false;
       if (filters.market && item.market !== filters.market) return false;
       if (filters.variety && !item.varietyExamples.includes(filters.variety)) return false;
-      if (
-        filters.freshness &&
-        freshnessStatus(item.latest_age_days, manifest.meta.freshnessThresholdDays) !==
-          filters.freshness
-      )
-        return false;
+      if (filters.freshness) {
+        if (asOfDate === null) return false;
+        const days = reportAgeDays(item.last_date, asOfDate);
+        if (
+          days === null ||
+          freshnessStatus(days, manifest.meta.freshnessThresholdDays) !== filters.freshness
+        )
+          return false;
+      }
       if (filters.consistency && item.coverage_tier !== filters.consistency) return false;
       if (filters.since && item.last_date < filters.since) return false;
       if (filters.history) {
@@ -161,7 +167,7 @@ export function MarketsExplorer({
         right.last_date.localeCompare(left.last_date) || left.market.localeCompare(right.market)
       );
     });
-  }, [filters, manifest.meta.freshnessThresholdDays, markets]);
+  }, [asOfDate, filters, manifest.meta.freshnessThresholdDays, markets]);
 
   const pageCount = Math.max(1, Math.ceil(results.length / PAGE_SIZE));
   const safePage = Math.min(page, pageCount);
@@ -447,7 +453,7 @@ export function MarketsExplorer({
                           ) : null}
                           <td>
                             <StatusBadge
-                              days={item.latest_age_days}
+                              reportDate={item.last_date}
                               threshold={manifest.meta.freshnessThresholdDays}
                               locale={locale}
                               copy={common}
@@ -722,7 +728,7 @@ function MarketCard({
       />
       <div className="market-card__meta">
         <StatusBadge
-          days={item.latest_age_days}
+          reportDate={item.last_date}
           threshold={manifest.meta.freshnessThresholdDays}
           locale={locale}
           copy={common}

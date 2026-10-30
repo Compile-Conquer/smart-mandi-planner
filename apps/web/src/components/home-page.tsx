@@ -12,6 +12,7 @@ import {
 import Link from "next/link";
 
 import { Sparkline, StatusBadge } from "@/components/data-ui";
+import { FreshnessSummary } from "@/components/freshness-badges";
 import { localeDirection, localizePath } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import {
@@ -212,14 +213,11 @@ export async function HomePage({ locale }: { locale: Locale }) {
                   <dd>{formatNumber(state.commodityCount, locale, 0)}</dd>
                 </div>
               </dl>
-              <div className="state-card__freshness">
-                <span>
-                  <i style={{ width: `${(state.freshSeries / state.seriesCount) * 100}%` }} />
-                </span>
-                <small>
-                  {state.freshSeries}/{state.seriesCount} {home.seriesFresh}
-                </small>
-              </div>
+              <FreshnessSummary
+                reportDates={state.reportDates}
+                threshold={manifest.meta.freshnessThresholdDays}
+                label={home.seriesFresh}
+              />
               <p>
                 {common.latestReport} · {formatDate(state.latestDate, locale)}
               </p>
@@ -276,14 +274,7 @@ export async function HomePage({ locale }: { locale: Locale }) {
               </div>
               <div className="commodity-row__status">
                 <StatusBadge
-                  days={Math.max(
-                    0,
-                    Math.round(
-                      (new Date(`${manifest.meta.dateRange[1]}T00:00:00Z`).getTime() -
-                        new Date(`${commodity.latestDate}T00:00:00Z`).getTime()) /
-                        86_400_000,
-                    ),
-                  )}
+                  reportDate={commodity.latestDate}
                   threshold={manifest.meta.freshnessThresholdDays}
                   locale={locale}
                   copy={common}

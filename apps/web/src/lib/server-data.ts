@@ -12,7 +12,6 @@ import type {
   PartitionData,
   StateSummary,
 } from "@/lib/types";
-import { freshnessStatus } from "@/lib/types";
 
 const dataRoot = path.join(process.cwd(), "public", "data");
 
@@ -138,9 +137,6 @@ async function buildCatalog(): Promise<Catalog> {
 
   const states: StateSummary[] = manifest.meta.states.map((state) => {
     const stateMarkets = markets.filter((item) => item.stateSlug === state.slug);
-    const freshness = stateMarkets.map((item) =>
-      freshnessStatus(item.latest_age_days, manifest.meta.freshnessThresholdDays),
-    );
     const partitionRows = manifest.partitions.filter((item) => item.stateSlug === state.slug);
     return {
       ...state,
@@ -151,9 +147,7 @@ async function buildCatalog(): Promise<Catalog> {
         (latest, item) => (item.last_date > latest ? item.last_date : latest),
         "",
       ),
-      freshSeries: freshness.filter((item) => item === "fresh").length,
-      recentSeries: freshness.filter((item) => item === "recent").length,
-      staleSeries: freshness.filter((item) => item === "stale").length,
+      reportDates: stateMarkets.map((item) => item.last_date),
     };
   });
 
@@ -185,10 +179,6 @@ async function buildCatalog(): Promise<Catalog> {
       latestMin: Math.min(...commodityMarkets.map((item) => item.latest.representative_price)),
       latestMax: Math.max(...commodityMarkets.map((item) => item.latest.representative_price)),
       sparkline: sampledSparkline(aggregatePoints.slice(-90), 24),
-      freshSeries: commodityMarkets.filter(
-        (item) =>
-          freshnessStatus(item.latest_age_days, manifest.meta.freshnessThresholdDays) === "fresh",
-      ).length,
     };
   });
 

@@ -7024,11 +7024,6 @@ html:not([lang="en"]) .sidebar-support p,
     border-bottom: 0;
   }
 
-  .language-select {
-    width: 118px;
-    min-width: 118px;
-  }
-
   .evidence-metrics,
   .processing-funnel {
     grid-template-columns: 1fr;

@@ -258,9 +258,7 @@ export interface StateSummary extends StateMeta {
   seriesCount: number;
   observationCount: number;
   latestDate: string;
-  freshSeries: number;
-  recentSeries: number;
-  staleSeries: number;
+  reportDates: string[];
 }
 
 export interface CommoditySummary {
@@ -272,7 +270,6 @@ export interface CommoditySummary {
   latestMin: number;
   latestMax: number;
   sparkline: Array<{ date: string; value: number }>;
-  freshSeries: number;
 }
 
 export interface Catalog {

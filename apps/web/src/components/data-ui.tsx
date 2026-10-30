@@ -1,32 +1,10 @@
-import { AlertCircle, ArrowRight, CalendarDays, CheckCircle2, Clock3 } from "lucide-react";
+import { ArrowRight, CalendarDays } from "lucide-react";
 import Link from "next/link";
 
 import type { Dictionary } from "@/i18n/types";
-import { formatCurrency, formatDate, formatDays } from "@/lib/format";
+import { formatCurrency, formatDate } from "@/lib/format";
 import type { FreshnessStatus, Locale } from "@/lib/types";
-import { freshnessStatus } from "@/lib/types";
-
-export function StatusBadge({
-  days,
-  threshold,
-  locale,
-  copy,
-}: {
-  days: number;
-  threshold: number;
-  locale: Locale;
-  copy: Dictionary["common"];
-}) {
-  const status = freshnessStatus(days, threshold);
-  const label = status === "fresh" ? copy.fresh : status === "recent" ? copy.recent : copy.stale;
-  const Icon = status === "fresh" ? CheckCircle2 : status === "recent" ? Clock3 : AlertCircle;
-  return (
-    <span className={`status-badge status-badge--${status}`}>
-      <Icon size={13} aria-hidden="true" />
-      {label} · {formatDays(days, locale)}
-    </span>
-  );
-}
+export { StatusBadge } from "@/components/freshness-badges";
 
 export function ConsistencyBadge({ tier, copy }: { tier: string; copy: Dictionary["common"] }) {
   const high = tier === "high";
